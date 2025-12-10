@@ -1,0 +1,22 @@
+# Fonds et textures
+# 
+# Fichiers suggérés :
+# - pattern-metal.svg - Motif métal/industriel répétable
+# - texture-industrial.webp - Texture industrielle/acier
+# - texture-lames.webp - Texture lames de rideau
+# - gradient-orange.webp - Dégradé orange personnalisé
+# - hero-overlay.png - Overlay semi-transparent pour hero
+#
+# Utilisation :
+# - Ajouter une ambiance industrielle
+# - Créer de la profondeur aux sections
+# - Différencier visuellement des autres sites
+#
+# Idées de textures :
+# - Métal brossé
+# - Acier galvanisé
+# - Motif de lames ondulées
+#
+# Format : SVG pour motifs, WebP/PNG pour textures
+# Poids : < 50KB (motifs), < 100KB (textures)
+
