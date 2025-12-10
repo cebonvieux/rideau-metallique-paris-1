@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🛠️ Maintenance préventive",
+    "title": "Entretien Rideau Métallique {zone}",
+    "subtitle": "Contrats d'entretien et maintenance préventive pour rideaux métalliques à {zone}. Évitez les pannes et prolongez la durée de vie de vos équipements."
+  },
+  "intro": {
+    "title": "Entretien rideau métallique à {zone}",
+    "paragraphs": [
+      "Un rideau métallique bien entretenu, c'est un rideau qui dure plus longtemps et qui tombe moins souvent en panne. {name} propose des contrats d'entretien adaptés à vos besoins à {zone}.",
+      "Nos techniciens interviennent régulièrement pour vérifier, lubrifier et ajuster votre rideau. Nous anticipons les problèmes avant qu'ils ne deviennent des urgences."
+    ]
+  },
+  "situations": {
+    "title": "Nos prestations d'entretien à {zone}",
+    "items": [
+      {
+        "icon": "🔍",
+        "title": "Inspection complète",
+        "description": "Vérification de tous les composants : lames, axe, moteur, système de verrouillage."
+      },
+      {
+        "icon": "🛢️",
+        "title": "Lubrification",
+        "description": "Graissage des points de friction pour un fonctionnement fluide et silencieux."
+      },
+      {
+        "icon": "⚙️",
+        "title": "Réglages",
+        "description": "Ajustement des fins de course, tension des ressorts, équilibrage."
+      },
+      {
+        "icon": "📋",
+        "title": "Rapport d'intervention",
+        "description": "Compte-rendu détaillé avec préconisations et planification des interventions futures."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Avantages de l'entretien régulier à {zone}",
+    "items": [
+      "Réduction des pannes de 80%",
+      "Durée de vie prolongée de vos équipements",
+      "Intervention prioritaire en cas d'urgence",
+      "Tarifs préférentiels sur les pièces détachées",
+      "Conformité aux normes de sécurité",
+      "Tranquillité d'esprit au quotidien"
+    ]
+  },
+  "cta": {
+    "title": "Contrat d'entretien à {zone} ?",
+    "subtitle": "Demandez un devis pour un contrat adapté à vos besoins."
+  }
+}
+

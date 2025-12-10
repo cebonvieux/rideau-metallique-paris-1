@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🚨 Urgence 24h/24",
+    "title": "Dépannage Rideau Métallique {zone}",
+    "subtitle": "Intervention en 30 minutes à {zone}. Rideau bloqué, moteur en panne, lames abîmées ? Notre équipe de techniciens spécialisés intervient 24h/24 et 7j/7."
+  },
+  "intro": {
+    "title": "Dépannage rideau métallique à {zone}",
+    "paragraphs": [
+      "Votre rideau métallique est bloqué à {zone} ? {name} est votre spécialiste du dépannage en urgence. Nous intervenons rapidement pour débloquer, réparer ou remettre en service votre rideau métallique.",
+      "Notre équipe de techniciens qualifiés connaît parfaitement {zone} ({zonePostal}) et intervient avec tout l'équipement nécessaire : pièces détachées, outillage professionnel, véhicules équipés."
+    ]
+  },
+  "situations": {
+    "title": "Situations de dépannage à {zone}",
+    "items": [
+      {
+        "icon": "🚪",
+        "title": "Rideau bloqué",
+        "description": "Votre rideau refuse de monter ou descendre ? Nous diagnostiquons et réparons sur place."
+      },
+      {
+        "icon": "⚡",
+        "title": "Moteur en panne",
+        "description": "Panne électrique, moteur qui ne répond plus ? Nous réparons ou remplaçons le moteur."
+      },
+      {
+        "icon": "🔧",
+        "title": "Lames abîmées",
+        "description": "Lames tordues, enfoncées ou arrachées ? Remplacement rapide des éléments endommagés."
+      },
+      {
+        "icon": "🔒",
+        "title": "Serrure cassée",
+        "description": "Problème de verrouillage ? Nous réparons ou remplaçons le système de fermeture."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Pourquoi choisir {name} pour votre dépannage à {zone} ?",
+    "items": [
+      "Intervention en 30 minutes sur {zone}",
+      "Disponible 24h/24 et 7j/7, même les jours fériés",
+      "Véhicules équipés avec pièces de rechange",
+      "Techniciens certifiés avec plus de 10 ans d'expérience",
+      "Devis gratuit avant toute intervention",
+      "Garantie sur les réparations effectuées"
+    ]
+  },
+  "cta": {
+    "title": "Besoin d'un dépannage à {zone} ?",
+    "subtitle": "Nos techniciens sont disponibles maintenant. Appelez pour une intervention rapide !"
+  }
+}
+

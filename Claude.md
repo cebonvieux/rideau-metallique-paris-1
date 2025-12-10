@@ -168,6 +168,35 @@ Ajouter dans `zones` de `config/site.ts` :
 ```
 Une page `/zones/villeurbanne` sera automatiquement générée.
 
+### 📍 Pages Service × Zone (SEO Local)
+
+Le template génère automatiquement des pages pour chaque combinaison **service × zone** :
+
+| Route | Exemple | Description |
+|-------|---------|-------------|
+| `/[service]` | `/depannage` | Page service pour la ville principale |
+| `/[service]/[zone]` | `/depannage/paris-11` | Page service localisée |
+
+**Services disponibles** (définis dans `config/site.ts`) :
+- `/depannage` - Dépannage urgence 24h/24
+- `/installation` - Installation rideau métallique
+- `/motorisation` - Motorisation et automatisation
+- `/entretien` - Maintenance préventive
+- `/reparation` - Réparation et remise en état
+- `/deblocage` - Déblocage rideau bloqué
+
+**Exemple pour Paris avec 20 arrondissements** :
+- `/depannage/paris-11` → Dépannage Paris 11e
+- `/installation/paris-15` → Installation Paris 15e
+- `/motorisation/neuilly` → Motorisation Neuilly
+
+**📊 Pages générées** : `6 services × N zones` = pages optimisées SEO local
+
+**Contenu des pages** : Les textes sont dans `content/pages/services/[service].json` avec variables :
+- `{zone}` → nom de la zone (ex: "Paris 11e")
+- `{zonePostal}` → code postal (ex: "75011")
+- `{service}` → nom du service
+
 ### Modifier un texte de page
 
 1. Localiser le fichier JSON dans `content/pages/`

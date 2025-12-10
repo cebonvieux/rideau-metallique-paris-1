@@ -119,50 +119,62 @@ export const navigation = [
 ] as const;
 
 // ─────────────────────────────────────────────────────────────────────────
-// SERVICES
+// SERVICES - Chaque service a sa propre page + pages localisées
 // ─────────────────────────────────────────────────────────────────────────
 export const services = [
   {
     id: "depannage",
+    slug: "depannage",
     name: "Dépannage Urgence",
     shortDesc: "Intervention rapide 24h/24",
+    longDesc: "Service de dépannage rideau métallique en urgence, disponible 24h/24 et 7j/7.",
     icon: "🔧",
-    href: "/depannage",
+    hasPage: true,
   },
   {
     id: "installation",
+    slug: "installation",
     name: "Installation",
     shortDesc: "Pose de rideaux métalliques",
+    longDesc: "Installation complète de rideaux métalliques pour commerces et locaux professionnels.",
     icon: "🏗️",
-    href: "/installation",
+    hasPage: true,
   },
   {
     id: "motorisation",
+    slug: "motorisation",
     name: "Motorisation",
     shortDesc: "Automatisation de votre rideau",
+    longDesc: "Motorisation et automatisation de rideaux métalliques existants ou neufs.",
     icon: "⚡",
-    href: "/motorisation",
+    hasPage: true,
   },
   {
     id: "entretien",
+    slug: "entretien",
     name: "Entretien",
     shortDesc: "Maintenance préventive",
+    longDesc: "Contrats d'entretien et maintenance préventive pour rideaux métalliques.",
     icon: "🛠️",
-    href: "/entretien",
+    hasPage: true,
   },
   {
     id: "reparation",
+    slug: "reparation",
     name: "Réparation",
     shortDesc: "Remise en état complète",
+    longDesc: "Réparation et remise en état de rideaux métalliques endommagés ou usés.",
     icon: "🔩",
-    href: "/depannage#reparation",
+    hasPage: true,
   },
   {
     id: "deblocage",
+    slug: "deblocage",
     name: "Déblocage",
     shortDesc: "Rideau bloqué ou coincé",
+    longDesc: "Déblocage en urgence de rideaux métalliques bloqués, coincés ou hors service.",
     icon: "🚪",
-    href: "/depannage#deblocage",
+    hasPage: true,
   },
 ] as const;
 

@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🏗️ Installation professionnelle",
+    "title": "Installation Rideau Métallique {zone}",
+    "subtitle": "Pose de rideaux métalliques à {zone} par des professionnels qualifiés. Rideaux à lames, grilles, portes de garage pour commerces et locaux professionnels."
+  },
+  "intro": {
+    "title": "Installation rideau métallique à {zone}",
+    "paragraphs": [
+      "Vous cherchez un installateur de rideaux métalliques à {zone} ? {name} réalise la pose complète de tous types de rideaux métalliques pour sécuriser votre commerce ou local professionnel.",
+      "Nous vous accompagnons du conseil au choix du rideau jusqu'à la pose et la mise en service. Nos techniciens interviennent à {zone} ({zonePostal}) avec tout le matériel nécessaire."
+    ]
+  },
+  "situations": {
+    "title": "Types de rideaux installés à {zone}",
+    "items": [
+      {
+        "icon": "🏪",
+        "title": "Rideau à lames pleines",
+        "description": "Protection maximale pour commerces, sécurité anti-effraction et isolation thermique."
+      },
+      {
+        "icon": "👁️",
+        "title": "Rideau micro-perforé",
+        "description": "Visibilité de la vitrine même rideau fermé, idéal pour boutiques et showrooms."
+      },
+      {
+        "icon": "🏭",
+        "title": "Grille métallique",
+        "description": "Protection légère avec aération, parfaite pour entrepôts et locaux techniques."
+      },
+      {
+        "icon": "🚗",
+        "title": "Porte de garage",
+        "description": "Portes sectionnelles, basculantes ou enroulables pour garages et parkings."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Notre service d'installation à {zone}",
+    "items": [
+      "Étude gratuite sur site à {zone}",
+      "Fabrication sur mesure selon vos besoins",
+      "Pose par techniciens certifiés",
+      "Mise en service et formation à l'utilisation",
+      "Garantie fabricant 2 à 10 ans",
+      "SAV et maintenance disponibles"
+    ]
+  },
+  "cta": {
+    "title": "Projet d'installation à {zone} ?",
+    "subtitle": "Demandez un devis gratuit pour votre rideau métallique."
+  }
+}
+

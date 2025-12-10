@@ -19,7 +19,7 @@ export function Services({ title = "Nos Services", subtitle }: ServicesProps) {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
-            <Link key={service.id} href={service.href} className="card group hover:border-primary-200">
+            <Link key={service.id} href={`/${service.slug}`} className="card group hover:border-primary-200">
               <div className="flex items-start gap-4">
                 <div className="w-14 h-14 rounded-xl bg-primary-100 flex items-center justify-center text-2xl flex-shrink-0 group-hover:bg-primary-200 transition-colors">
                   {service.icon}

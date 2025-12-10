@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🔩 Remise en état",
+    "title": "Réparation Rideau Métallique {zone}",
+    "subtitle": "Réparation et remise en état de rideaux métalliques à {zone}. Lames, moteur, axe, serrure : nous réparons tous les composants."
+  },
+  "intro": {
+    "title": "Réparation rideau métallique à {zone}",
+    "paragraphs": [
+      "Votre rideau métallique est endommagé ou fonctionne mal ? {name} assure la réparation complète de tous types de rideaux métalliques à {zone}. Nous intervenons sur tous les composants.",
+      "Avant de penser au remplacement, la réparation est souvent la solution la plus économique. Nos techniciens diagnostiquent le problème et vous proposent la meilleure solution."
+    ]
+  },
+  "situations": {
+    "title": "Types de réparations à {zone}",
+    "items": [
+      {
+        "icon": "📏",
+        "title": "Lames endommagées",
+        "description": "Remplacement de lames tordues, enfoncées, rouillées ou manquantes."
+      },
+      {
+        "icon": "⚡",
+        "title": "Moteur défaillant",
+        "description": "Réparation ou remplacement du moteur, du condensateur, des contacts."
+      },
+      {
+        "icon": "🔄",
+        "title": "Axe et ressorts",
+        "description": "Remplacement de l'axe d'enroulement, des ressorts de traction ou torsion."
+      },
+      {
+        "icon": "🔒",
+        "title": "Système de verrouillage",
+        "description": "Réparation de la serrure, des verrous de sol, des contacts de sécurité."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Notre service de réparation à {zone}",
+    "items": [
+      "Diagnostic gratuit sur place",
+      "Réparation souvent moins chère que le remplacement",
+      "Pièces d'origine ou compatibles de qualité",
+      "Garantie sur toutes les réparations",
+      "Intervention rapide (urgence sous 24h)",
+      "Devis détaillé avant intervention"
+    ]
+  },
+  "cta": {
+    "title": "Réparation à {zone} ?",
+    "subtitle": "Appelez pour un diagnostic gratuit de votre rideau."
+  }
+}
+

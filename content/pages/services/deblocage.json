@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🚨 Urgence déblocage",
+    "title": "Déblocage Rideau Métallique {zone}",
+    "subtitle": "Déblocage en urgence de rideaux métalliques à {zone}. Rideau coincé, bloqué en position haute ou basse ? Intervention rapide 24h/24."
+  },
+  "intro": {
+    "title": "Déblocage rideau métallique à {zone}",
+    "paragraphs": [
+      "Votre rideau métallique est coincé et vous ne pouvez plus ouvrir ou fermer votre commerce ? {name} intervient en urgence à {zone} pour débloquer votre rideau rapidement.",
+      "Un rideau bloqué, c'est un commerce fermé ou un local vulnérable. Nous comprenons l'urgence et intervenons en 30 minutes à {zone} ({zonePostal})."
+    ]
+  },
+  "situations": {
+    "title": "Situations de déblocage à {zone}",
+    "items": [
+      {
+        "icon": "⬆️",
+        "title": "Bloqué en haut",
+        "description": "Le rideau refuse de descendre ? Problème de fin de course, de moteur ou de blocage mécanique."
+      },
+      {
+        "icon": "⬇️",
+        "title": "Bloqué en bas",
+        "description": "Impossible d'ouvrir ? Nous débloquons et diagnostiquons la cause du problème."
+      },
+      {
+        "icon": "↕️",
+        "title": "Bloqué à mi-course",
+        "description": "Rideau coincé au milieu ? Souvent un problème de lame ou d'axe d'enroulement."
+      },
+      {
+        "icon": "⚡",
+        "title": "Panne électrique",
+        "description": "Plus de courant, disjoncteur qui saute ? Nous identifions et résolvons le problème."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Notre service de déblocage à {zone}",
+    "items": [
+      "Intervention en 30 minutes chrono",
+      "Disponible 24h/24 et 7j/7",
+      "Déblocage manuel si panne électrique",
+      "Diagnostic immédiat de la cause",
+      "Réparation sur place si possible",
+      "Sécurisation du local après intervention"
+    ]
+  },
+  "cta": {
+    "title": "Rideau bloqué à {zone} ?",
+    "subtitle": "Appelez maintenant pour un déblocage en urgence !"
+  }
+}
+

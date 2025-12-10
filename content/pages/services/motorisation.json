@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "⚡ Automatisation",
+    "title": "Motorisation Rideau Métallique {zone}",
+    "subtitle": "Motorisation et automatisation de rideaux métalliques à {zone}. Transformez votre rideau manuel en rideau électrique pour plus de confort et de sécurité."
+  },
+  "intro": {
+    "title": "Motorisation rideau métallique à {zone}",
+    "paragraphs": [
+      "Vous en avez assez de lever et baisser votre rideau manuellement ? {name} motorise votre rideau métallique existant à {zone}. Une solution simple et rapide pour gagner en confort au quotidien.",
+      "La motorisation permet également un meilleur verrouillage automatique et peut être couplée à des systèmes de domotique et de contrôle d'accès."
+    ]
+  },
+  "situations": {
+    "title": "Solutions de motorisation à {zone}",
+    "items": [
+      {
+        "icon": "🔌",
+        "title": "Moteur central",
+        "description": "Installation dans l'axe d'enroulement, solution standard pour la plupart des rideaux."
+      },
+      {
+        "icon": "📱",
+        "title": "Télécommande",
+        "description": "Ouverture/fermeture à distance, programmation horaire et contrôle depuis smartphone."
+      },
+      {
+        "icon": "🔋",
+        "title": "Batterie de secours",
+        "description": "Fonctionnement en cas de coupure de courant pour ne jamais rester bloqué."
+      },
+      {
+        "icon": "🏠",
+        "title": "Domotique",
+        "description": "Intégration avec votre système domotique existant, alarme et contrôle d'accès."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Avantages de la motorisation à {zone}",
+    "items": [
+      "Confort d'utilisation au quotidien",
+      "Verrouillage automatique renforcé",
+      "Moins d'usure du rideau (montée/descente régulière)",
+      "Possibilité de contrôle à distance",
+      "Installation rapide en quelques heures",
+      "Compatible avec la plupart des rideaux existants"
+    ]
+  },
+  "cta": {
+    "title": "Motorisation à {zone} ?",
+    "subtitle": "Demandez une étude gratuite pour motoriser votre rideau."
+  }
+}
+
