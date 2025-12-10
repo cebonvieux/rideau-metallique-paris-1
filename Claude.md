@@ -91,21 +91,46 @@ export function getPageContent<T>(content: T): T
 ### Modifier le design (couleurs, boutons, typographie)
 
 #### Couleurs
-Dans `app/globals.css`, modifier les variables CSS :
 
-```css
-:root {
-  --color-primary-600: #ea580c;  /* Couleur principale - Orange */
-  /* Autres nuances de 50 à 900 */
+Les couleurs sont définies directement dans `tailwind.config.js` :
+
+```javascript
+colors: {
+  primary: {
+    50: '#fff7ed',
+    // ...
+    600: '#ea580c',  // ← Couleur principale à modifier
+    // ...
+  },
 }
 ```
 
-**Palettes suggérées** :
+**⚠️ IMPORTANT : Utiliser des couleurs "locales" liées aux références régionales**
+
+Pour renforcer l'identité locale et le SEO, choisir des couleurs qui évoquent la région :
+
+| Ville | Couleur suggérée | Code hex | Inspiration |
+|-------|------------------|----------|-------------|
+| **Paris** | Bleu Nuit | `#1d3557` | Élégance parisienne |
+| **Marseille** | Bleu Méditerranée | `#0077b6` | Mer, OM |
+| **Lyon** | Rouge Garance | `#c1121f` | Couleur historique lyonnaise |
+| **Bordeaux** | Bordeaux/Vin | `#722f37` | Vignobles |
+| **Nice** | Bleu Azur | `#0096c7` | Côte d'Azur |
+| **Toulouse** | Rose brique | `#c9184a` | Ville rose |
+| **Strasbourg** | Bleu Alsace | `#1d3557` | Tradition alsacienne |
+| **Nantes** | Vert Atlantique | `#2d6a4f` | Loire, nature |
+| **Lille** | Rouge/Or | `#9d0208` | Blason de la ville |
+| **Avignon** | Ocre Provence | `#e07a2b` | Couleurs provençales |
+| **Créteil** | Orange moderne | `#ea580c` | Dynamisme urbain |
+
+**Outil recommandé** : [uicolors.app](https://uicolors.app/create) pour générer une palette complète à partir d'une couleur de base.
+
+**Palettes génériques (si pas de référence locale évidente)** :
+- 🟠 Orange industriel : `#ea580c` (défaut rideau métallique)
 - 🔵 Bleu pro : `#1976d2`
-- 🟠 Orange industriel : `#ea580c`
 - 🟢 Vert confiance : `#16a34a`
 - 🔴 Rouge urgence : `#dc2626`
-- 🟣 Violet moderne : `#7c3aed`
+- ⚫ Gris acier : `#374151`
 
 #### Typographie
 Dans `app/globals.css` :
