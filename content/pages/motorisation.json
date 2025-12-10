@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "badge": "⚡ Motorisation",
+    "title": "Motorisation Rideau Métallique {city}",
+    "subtitle": "Automatisez votre rideau métallique pour plus de confort et de sécurité. Installation moteur, télécommande, clavier à code."
+  },
+  "avantages": [
+    {
+      "icon": "🎮",
+      "title": "Confort d'utilisation",
+      "description": "Ouvrez et fermez votre rideau d'un simple clic, sans effort."
+    },
+    {
+      "icon": "🔐",
+      "title": "Sécurité renforcée",
+      "description": "Système anti-relevage et verrouillage automatique."
+    },
+    {
+      "icon": "⏱️",
+      "title": "Gain de temps",
+      "description": "Ouverture/fermeture rapide, programmation horaire possible."
+    },
+    {
+      "icon": "📱",
+      "title": "Pilotage à distance",
+      "description": "Contrôle via smartphone avec les motorisations connectées."
+    }
+  ],
+  "types": [
+    {
+      "icon": "🔄",
+      "title": "Moteur tubulaire",
+      "description": "Intégré dans l'axe d'enroulement. Discret et efficace pour rideaux jusqu'à 200kg.",
+      "price": "À partir de 450€"
+    },
+    {
+      "icon": "⚙️",
+      "title": "Moteur central",
+      "description": "Pour rideaux lourds et grandes dimensions. Puissance et fiabilité.",
+      "price": "À partir de 650€"
+    },
+    {
+      "icon": "🔗",
+      "title": "Moteur latéral",
+      "description": "Installation en applique. Solution économique et facile à entretenir.",
+      "price": "À partir de 350€"
+    }
+  ],
+  "cta": {
+    "title": "Motorisez votre rideau métallique",
+    "subtitle": "Devis gratuit. Installation par nos techniciens qualifiés."
+  }
+}
+

@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Quel est le délai d'intervention pour un dépannage ?",
+    "answer": "Nos techniciens interviennent en <strong>1 heure maximum</strong> sur {city} et son agglomération pour les urgences. Nous sommes disponibles 24h/24 et 7j/7, y compris les jours fériés."
+  },
+  {
+    "question": "Mon rideau métallique est bloqué, que faire ?",
+    "answer": "N'essayez pas de forcer le mécanisme, vous risqueriez d'aggraver la panne. Appelez-nous immédiatement au <strong>{phone}</strong>. Nos techniciens diagnostiqueront le problème et le résoudront rapidement."
+  },
+  {
+    "question": "Combien coûte un dépannage de rideau métallique ?",
+    "answer": "Le tarif dépend du type de panne et des pièces à remplacer. Un dépannage simple (déblocage) coûte entre <strong>150€ et 250€</strong>. Nous vous communiquons un devis précis avant toute intervention."
+  },
+  {
+    "question": "Intervenez-vous sur toutes les marques ?",
+    "answer": "Oui, nos techniciens sont formés sur <strong>toutes les marques</strong> de rideaux métalliques et de motorisations : Somfy, Nice, Came, Hörmann, Bubendorff, et bien d'autres."
+  },
+  {
+    "question": "Proposez-vous des contrats d'entretien ?",
+    "answer": "Oui, nous proposons des <strong>contrats de maintenance préventive</strong> pour prolonger la durée de vie de votre rideau et éviter les pannes. Une visite annuelle comprend le graissage, les réglages et le contrôle de sécurité."
+  },
+  {
+    "question": "Quelle est la durée de vie d'un rideau métallique ?",
+    "answer": "Un rideau métallique bien entretenu a une durée de vie de <strong>15 à 25 ans</strong>. La motorisation doit généralement être remplacée tous les 10-15 ans selon l'utilisation."
+  },
+  {
+    "question": "Pouvez-vous motoriser mon rideau manuel ?",
+    "answer": "Oui, dans la plupart des cas il est possible de <strong>motoriser un rideau manuel existant</strong>. Nous réalisons une étude de faisabilité gratuite et vous proposons la solution la plus adaptée."
+  },
+  {
+    "question": "Vos interventions sont-elles garanties ?",
+    "answer": "Oui, toutes nos interventions sont <strong>garanties 1 an</strong> (pièces et main d'œuvre). Les rideaux neufs bénéficient d'une garantie constructeur de 2 à 5 ans selon les modèles."
+  }
+]
+

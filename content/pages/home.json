@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "badge": "🔧 Intervention 24h/24",
+    "title": "Dépannage Rideau Métallique {city}",
+    "subtitle": "Votre rideau métallique est bloqué ? Notre équipe intervient en urgence 7j/7 à {city}. Dépannage, réparation, installation."
+  },
+  "trustBadges": [
+    {
+      "icon": "⚡",
+      "title": "1h max",
+      "subtitle": "Intervention rapide"
+    },
+    {
+      "icon": "🛡️",
+      "title": "Garanti",
+      "subtitle": "Pièces & main d'œuvre"
+    },
+    {
+      "icon": "📋",
+      "title": "Devis gratuit",
+      "subtitle": "Sans engagement"
+    }
+  ],
+  "whyUs": {
+    "title": "Pourquoi nous choisir ?",
+    "subtitle": "{name} : spécialistes du rideau métallique à {city} depuis plus de 15 ans.",
+    "advantages": [
+      {
+        "icon": "⚡",
+        "title": "Intervention rapide",
+        "description": "Nos techniciens arrivent en 1 heure maximum sur {city} et ses environs, 24h/24."
+      },
+      {
+        "icon": "🏆",
+        "title": "Expertise technique",
+        "description": "Spécialistes toutes marques : Somfy, Nice, Came, Hörmann, et tous types de rideaux."
+      },
+      {
+        "icon": "💰",
+        "title": "Tarifs transparents",
+        "description": "Devis gratuit avant intervention. Prix fixe annoncé, aucune surprise."
+      },
+      {
+        "icon": "✅",
+        "title": "Garantie pièces et main d'œuvre",
+        "description": "Toutes nos interventions sont garanties. Pièces d'origine constructeur."
+      }
+    ]
+  },
+  "stats": {
+    "experience": "15+",
+    "experienceLabel": "ans d'expérience",
+    "interventions": "5000+",
+    "interventionsLabel": "interventions/an",
+    "satisfaction": "98%",
+    "satisfactionLabel": "clients satisfaits"
+  }
+}
+

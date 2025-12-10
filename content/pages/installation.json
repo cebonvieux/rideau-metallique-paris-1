@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "badge": "🏗️ Installation professionnelle",
+    "title": "Installation Rideau Métallique {city}",
+    "subtitle": "Pose de rideaux métalliques pour commerces, entrepôts et locaux professionnels. Devis gratuit et installation soignée."
+  },
+  "certifications": [
+    { "icon": "🏭", "label": "Toutes marques" },
+    { "icon": "✅", "label": "Garantie 2 ans" },
+    { "icon": "📐", "label": "Sur mesure" }
+  ],
+  "prestations": [
+    {
+      "icon": "🚪",
+      "title": "Rideau à lames pleines",
+      "description": "Protection maximale pour commerces et entrepôts. Isolation thermique et phonique, haute résistance aux effractions.",
+      "price": "À partir de 1500€"
+    },
+    {
+      "icon": "👁️",
+      "title": "Rideau micro-perforé",
+      "description": "Visibilité de votre vitrine même fermée. Idéal pour boutiques et commerces de centre-ville.",
+      "price": "À partir de 1800€"
+    },
+    {
+      "icon": "🔒",
+      "title": "Grille métallique",
+      "description": "Protection tout en transparence. Parfait pour vitrines et devantures de magasins.",
+      "price": "À partir de 1200€"
+    },
+    {
+      "icon": "🔥",
+      "title": "Rideau coupe-feu",
+      "description": "Conformité aux normes incendie. Obligatoire pour certains ERP et locaux industriels.",
+      "price": "Sur devis"
+    }
+  ],
+  "brands": [
+    "Somfy",
+    "Nice",
+    "Came",
+    "Hörmann",
+    "Bubendorff",
+    "Simu",
+    "Profalux",
+    "France Fermetures"
+  ],
+  "cta": {
+    "title": "Besoin d'un rideau métallique ?",
+    "subtitle": "Devis gratuit sous 24h. Installation rapide et soignée."
+  }
+}
+

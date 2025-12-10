@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "badge": "🛠️ Maintenance",
+    "title": "Entretien Rideau Métallique {city}",
+    "subtitle": "Prolongez la durée de vie de votre rideau avec un entretien régulier. Contrats de maintenance adaptés à vos besoins."
+  },
+  "avantages": [
+    {
+      "icon": "⏳",
+      "title": "Durée de vie prolongée",
+      "description": "Un entretien régulier permet de doubler la durée de vie de votre rideau."
+    },
+    {
+      "icon": "💰",
+      "title": "Économies sur les réparations",
+      "description": "Prévenir les pannes coûte moins cher que les réparer."
+    },
+    {
+      "icon": "🔐",
+      "title": "Sécurité optimale",
+      "description": "Un rideau bien entretenu assure une protection maximale."
+    },
+    {
+      "icon": "✅",
+      "title": "Conformité assurance",
+      "description": "Un entretien régulier est souvent exigé par les assureurs."
+    }
+  ],
+  "prestations": [
+    {
+      "icon": "🔧",
+      "title": "Graissage complet",
+      "description": "Lubrification de l'axe, des coulisses et des pièces mobiles."
+    },
+    {
+      "icon": "⚙️",
+      "title": "Réglage mécanique",
+      "description": "Ajustement des tensions, des fins de course et de l'équilibrage."
+    },
+    {
+      "icon": "🔍",
+      "title": "Contrôle de sécurité",
+      "description": "Vérification des systèmes de sécurité et anti-chute."
+    },
+    {
+      "icon": "📋",
+      "title": "Rapport d'intervention",
+      "description": "Compte-rendu détaillé avec recommandations."
+    }
+  ],
+  "contrats": [
+    {
+      "name": "Essentiel",
+      "price": "150€/an",
+      "features": ["1 visite annuelle", "Graissage complet", "Réglages mécaniques", "Rapport d'intervention"]
+    },
+    {
+      "name": "Sérénité",
+      "price": "250€/an",
+      "features": ["2 visites par an", "Tout Essentiel inclus", "Intervention prioritaire", "Remise 15% sur pièces"],
+      "isPopular": true
+    },
+    {
+      "name": "Premium",
+      "price": "Sur devis",
+      "features": ["Visites trimestrielles", "Tout Sérénité inclus", "Dépannage gratuit", "Pièces d'usure incluses"]
+    }
+  ],
+  "cta": {
+    "title": "Besoin d'un contrat d'entretien ?",
+    "subtitle": "Nos techniciens vous proposent la formule adaptée à vos besoins."
+  }
+}
+
