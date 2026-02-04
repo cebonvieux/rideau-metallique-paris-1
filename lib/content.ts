@@ -13,9 +13,13 @@ interface ReplaceContext {
 
 /**
  * Remplace les variables dans le contenu
- * Variables supportées : {city}, {name}, {phone}, {email}, {department}, {region}, {zone}, {service}
+ * Variables supportées : {city}, {name}, {phone}, {email}, {department}, {region}, {zone}, {zonePostal}, {service}
  */
 export function replaceVariables(text: string, context?: ReplaceContext): string {
+  // Variables de zone avec fallback sur la ville principale
+  const zone = context?.zone || siteConfig.city;
+  const zonePostal = context?.zonePostal || siteConfig.postalCode;
+  
   let result = text
     .replace(/{city}/g, siteConfig.city)
     .replace(/{name}/g, siteConfig.name)
@@ -24,15 +28,12 @@ export function replaceVariables(text: string, context?: ReplaceContext): string
     .replace(/{email}/g, siteConfig.email)
     .replace(/{department}/g, siteConfig.department)
     .replace(/{region}/g, siteConfig.region)
-    .replace(/{postalCode}/g, siteConfig.postalCode);
+    .replace(/{postalCode}/g, siteConfig.postalCode)
+    // Variables de zone (avec fallback)
+    .replace(/{zone}/g, zone)
+    .replace(/{zonePostal}/g, zonePostal);
 
-  // Variables contextuelles (zone et service)
-  if (context?.zone) {
-    result = result.replace(/{zone}/g, context.zone);
-  }
-  if (context?.zonePostal) {
-    result = result.replace(/{zonePostal}/g, context.zonePostal);
-  }
+  // Variable service (optionnelle)
   if (context?.service) {
     result = result.replace(/{service}/g, context.service);
   }

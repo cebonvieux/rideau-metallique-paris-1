@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "badge": "📞 Contact",
+    "title": "Contactez DRM Paris 1 - Devis Gratuit",
+    "subtitle": "Notre équipe est disponible 24h/24 et 7j/7 pour vos urgences et demandes de devis. Intervention rapide dans tout Paris 1er et ses environs."
+  },
+  "urgence": {
+    "title": "Urgence rideau métallique ?",
+    "subtitle": "Votre rideau est bloqué ? Appelez-nous directement pour une intervention rapide.",
+    "features": [
+      "Intervention en moins de 30 minutes",
+      "Disponible 24h/24, 7j/7",
+      "Devis gratuit au téléphone",
+      "Technicien qualifié"
+    ]
+  },
+  "confiance": {
+    "title": "Pourquoi nous faire confiance ?",
+    "items": [
+      {
+        "icon": "⭐",
+        "title": "Note 4.9/5",
+        "description": "Plus de 127 avis clients satisfaits sur Google"
+      },
+      {
+        "icon": "🏆",
+        "title": "15+ ans d'expérience",
+        "description": "Spécialiste du rideau métallique depuis plus de 15 ans"
+      },
+      {
+        "icon": "⚡",
+        "title": "30 min maximum",
+        "description": "Délai d'intervention garanti dans Paris Centre"
+      },
+      {
+        "icon": "✅",
+        "title": "Garantie totale",
+        "description": "Pièces et main d'œuvre garanties 1 an"
+      }
+    ]
+  },
+  "engagements": {
+    "title": "Nos engagements qualité",
+    "items": [
+      "Devis gratuit et transparent avant intervention",
+      "Prix fixe annoncé, aucune surprise",
+      "Techniciens qualifiés et certifiés",
+      "Pièces d'origine constructeur uniquement",
+      "Intervention propre et soignée",
+      "Service après-vente réactif"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Qui appeler pour un rideau métallique bloqué à Paris 1er ?",
+      "answer": "Appelez <strong>DRM Paris 1 au 01 85 09 99 36</strong>. Nous intervenons en urgence 24h/24 et 7j/7 dans tout le 1er arrondissement : Les Halles, Louvre, Palais-Royal, Place Vendôme et Châtelet."
+    },
+    {
+      "question": "Comment obtenir un devis gratuit ?",
+      "answer": "Vous pouvez obtenir un devis gratuit de plusieurs façons : par téléphone au <strong>01 85 09 99 36</strong>, par email à contact@depannage-rideaumetallique-paris-1.fr, ou en remplissant le formulaire sur cette page. Nous vous répondons sous 24h maximum."
+    },
+    {
+      "question": "Quels sont vos délais d'intervention ?",
+      "answer": "Pour les urgences, nous intervenons en <strong>30 minutes maximum</strong> dans Paris 1er et les arrondissements limitrophes. Pour les interventions planifiées (installation, entretien), nous vous proposons un rendez-vous sous 24 à 48h."
+    },
+    {
+      "question": "Proposez-vous des devis pour les professionnels ?",
+      "answer": "Oui, nous travaillons avec de nombreux <strong>professionnels, syndics et gestionnaires</strong>. Nous proposons des devis adaptés et des contrats de maintenance pour les commerces, entrepôts et copropriétés."
+    }
+  ],
+  "cta": {
+    "title": "Une question ? Un devis ?",
+    "subtitle": "Notre équipe est à votre écoute pour répondre à toutes vos questions."
+  }
+}

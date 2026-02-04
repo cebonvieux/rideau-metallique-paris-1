@@ -47,6 +47,24 @@
       "Tranquillité d'esprit au quotidien"
     ]
   },
+  "faq": [
+    {
+      "question": "Qui appeler pour l'entretien d'un rideau métallique à {zone} ?",
+      "answer": "Pour l'entretien de votre rideau métallique à <strong>{zone} ({zonePostal})</strong>, contactez <strong>{name} au {phone}</strong>. Nous proposons des contrats de maintenance adaptés : Essentiel, Sérénité et Premium."
+    },
+    {
+      "question": "À quelle fréquence faut-il entretenir un rideau métallique à {zone} ?",
+      "answer": "Il est recommandé de faire entretenir son rideau <strong>au minimum 1 fois par an</strong>. Pour les commerces à forte utilisation, nous conseillons 2 à 4 visites annuelles."
+    },
+    {
+      "question": "Que comprend une visite d'entretien à {zone} ?",
+      "answer": "Une visite d'entretien comprend : <strong>graissage complet</strong> de toutes les pièces mobiles, réglages mécaniques, contrôle de sécurité, test de la motorisation, inspection visuelle et rapport d'intervention."
+    },
+    {
+      "question": "Comment obtenir un devis pour un contrat d'entretien ?",
+      "answer": "Contactez-nous au <strong>{phone}</strong> pour obtenir un <strong>devis personnalisé</strong>. Nous proposons plusieurs formules adaptées à vos besoins et à la fréquence d'utilisation de votre rideau. Sans engagement de durée."
+    }
+  ],
   "cta": {
     "title": "Contrat d'entretien à {zone} ?",
     "subtitle": "Demandez un devis pour un contrat adapté à vos besoins."

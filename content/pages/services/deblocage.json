@@ -47,6 +47,24 @@
       "Sécurisation du local après intervention"
     ]
   },
+  "faq": [
+    {
+      "question": "Qui appeler pour débloquer un rideau métallique à {zone} ?",
+      "answer": "Pour un déblocage urgent de rideau métallique à <strong>{zone} ({zonePostal})</strong>, appelez <strong>{name} au {phone}</strong>. Notre équipe intervient en 30 minutes, 24h/24 et 7j/7."
+    },
+    {
+      "question": "Mon rideau est bloqué en haut à {zone}, que faire ?",
+      "answer": "N'essayez pas de forcer le mécanisme. Appelez-nous immédiatement au <strong>{phone}</strong>. Notre technicien interviendra rapidement à {zone} pour débloquer votre rideau en toute sécurité."
+    },
+    {
+      "question": "Comment obtenir un devis pour un déblocage à {zone} ?",
+      "answer": "Nous vous communiquons un <strong>devis gratuit et détaillé</strong> avant toute intervention. Appelez-nous au <strong>{phone}</strong> pour décrire votre situation, nous interviendrons rapidement à {zone}."
+    },
+    {
+      "question": "En combien de temps intervenez-vous à {zone} ?",
+      "answer": "Nos techniciens interviennent en <strong>30 minutes maximum</strong> à {zone} pour les urgences de déblocage. Nous sommes disponibles 24h/24, y compris les week-ends et jours fériés."
+    }
+  ],
   "cta": {
     "title": "Rideau bloqué à {zone} ?",
     "subtitle": "Appelez maintenant pour un déblocage en urgence !"

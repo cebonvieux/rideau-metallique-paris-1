@@ -1,13 +1,13 @@
 {
   "hero": {
     "badge": "🔧 Intervention 24h/24",
-    "title": "Dépannage Rideau Métallique {city}",
-    "subtitle": "Votre rideau métallique est bloqué ? Notre équipe intervient en urgence 7j/7 à {city}. Dépannage, réparation, installation."
+    "title": "Dépannage Rideau Métallique Paris 1er (75001)",
+    "subtitle": "Votre rideau métallique est bloqué ? Notre équipe intervient en urgence 7j/7 à Paris 1er. Dépannage, réparation, installation et motorisation."
   },
   "trustBadges": [
     {
       "icon": "⚡",
-      "title": "1h max",
+      "title": "30 min",
       "subtitle": "Intervention rapide"
     },
     {
@@ -22,28 +22,28 @@
     }
   ],
   "whyUs": {
-    "title": "Pourquoi nous choisir ?",
-    "subtitle": "{name} : spécialistes du rideau métallique à {city} depuis plus de 15 ans.",
+    "title": "Pourquoi choisir DRM Paris 1 ?",
+    "subtitle": "Spécialistes du rideau métallique à Paris 1er depuis plus de 15 ans. Une équipe de techniciens qualifiés à votre service.",
     "advantages": [
       {
         "icon": "⚡",
-        "title": "Intervention rapide",
-        "description": "Nos techniciens arrivent en 1 heure maximum sur {city} et ses environs, 24h/24."
+        "title": "Intervention en 30 minutes",
+        "description": "Nos techniciens arrivent en 30 minutes maximum sur Paris 1er et ses environs, 24h/24 et 7j/7."
       },
       {
         "icon": "🏆",
-        "title": "Expertise technique",
-        "description": "Spécialistes toutes marques : Somfy, Nice, Came, Hörmann, et tous types de rideaux."
+        "title": "Expertise technique reconnue",
+        "description": "Plus de 5000 interventions par an. Spécialistes toutes marques : Somfy, Nice, Came, Hörmann."
       },
       {
-        "icon": "💰",
-        "title": "Tarifs transparents",
-        "description": "Devis gratuit avant intervention. Prix fixe annoncé, aucune surprise."
+        "icon": "📋",
+        "title": "Devis gratuit",
+        "description": "Devis gratuit et détaillé avant chaque intervention. Aucune surprise, engagement transparent."
       },
       {
         "icon": "✅",
         "title": "Garantie pièces et main d'œuvre",
-        "description": "Toutes nos interventions sont garanties. Pièces d'origine constructeur."
+        "description": "Toutes nos interventions sont garanties 1 an. Pièces d'origine constructeur exclusivement."
       }
     ]
   },
@@ -54,6 +54,130 @@
     "interventionsLabel": "interventions/an",
     "satisfaction": "98%",
     "satisfactionLabel": "clients satisfaits"
+  },
+  "urgence": {
+    "title": "Urgence rideau métallique ?",
+    "subtitle": "Votre rideau est bloqué en pleine nuit ? Notre équipe d'astreinte intervient 24h/24 pour débloquer votre commerce.",
+    "features": [
+      "Technicien disponible 24h/24",
+      "Intervention en 30 minutes",
+      "Tous types de pannes",
+      "Devis gratuit par téléphone"
+    ]
+  },
+  "pannesCourantes": {
+    "title": "Pannes courantes que nous réparons",
+    "subtitle": "Nos techniciens interviennent pour tous types de dysfonctionnements sur vos rideaux métalliques.",
+    "items": [
+      {
+        "icon": "🚪",
+        "title": "Rideau bloqué",
+        "description": "Votre rideau refuse de monter ou descendre ? Nous intervenons rapidement pour le débloquer."
+      },
+      {
+        "icon": "⚡",
+        "title": "Panne moteur",
+        "description": "Moteur qui grogne, tourne dans le vide ou ne répond plus ? Diagnostic et réparation sur place."
+      },
+      {
+        "icon": "🔩",
+        "title": "Lames endommagées",
+        "description": "Lames tordues, cabossées ou arrachées suite à un choc ? Remplacement à l'identique."
+      },
+      {
+        "icon": "🔐",
+        "title": "Serrure cassée",
+        "description": "Problème de verrouillage ou serrure forcée ? Changement et mise en sécurité."
+      },
+      {
+        "icon": "📡",
+        "title": "Télécommande HS",
+        "description": "Télécommande qui ne fonctionne plus ? Reprogrammation ou remplacement rapide."
+      },
+      {
+        "icon": "🔧",
+        "title": "Axe d'enroulement",
+        "description": "Axe cassé ou désaxé ? Remplacement complet avec ressorts de compensation."
+      }
+    ]
+  },
+  "deblocage": {
+    "title": "Déblocage rideau métallique",
+    "subtitle": "Service d'urgence pour rideau bloqué à Paris 1er",
+    "description": "Un rideau métallique bloqué peut paralyser votre activité commerciale. Notre équipe intervient en urgence pour débloquer votre rideau, quelle que soit la cause : panne moteur, axe cassé, lame coincée ou problème électrique.",
+    "features": [
+      "Déblocage manuel d'urgence",
+      "Diagnostic de la panne",
+      "Réparation sur place si possible",
+      "Mise en sécurité du local"
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Jean-Pierre M.",
+      "rating": 5,
+      "date": "2024-01-15",
+      "location": "Boulangerie - Les Halles",
+      "service": "Dépannage",
+      "text": "Intervention rapide et efficace pour mon rideau bloqué à 6h du matin. Le technicien est arrivé en 25 minutes aux Halles. Professionnel et tarif raisonnable. Je recommande vivement DRM Paris 1 !"
+    },
+    {
+      "author": "Marie-Claire D.",
+      "rating": 5,
+      "date": "2024-01-10",
+      "location": "Boutique prêt-à-porter - Palais-Royal",
+      "service": "Installation",
+      "text": "Installation d'un nouveau rideau motorisé pour ma boutique au Palais-Royal. Travail soigné, équipe ponctuelle et respectueuse. Le rideau fonctionne parfaitement. Merci à toute l'équipe !"
+    },
+    {
+      "author": "Philippe R.",
+      "rating": 5,
+      "date": "2024-01-05",
+      "location": "Restaurant - Châtelet",
+      "service": "Motorisation",
+      "text": "Motorisation de mon ancien rideau manuel. Le technicien de DRM Paris 1 a fait un travail impeccable à Châtelet. Plus besoin de forcer tous les matins ! Devis respecté et garantie incluse."
+    },
+    {
+      "author": "Sophie L.",
+      "rating": 5,
+      "date": "2023-12-28",
+      "location": "Pharmacie - Louvre",
+      "service": "Entretien",
+      "text": "Contrat d'entretien annuel pour ma pharmacie près du Louvre. Technicien très professionnel, intervention rapide. Mon rideau n'a plus de problème depuis la mise en place du contrat."
+    },
+    {
+      "author": "Ahmed B.",
+      "rating": 5,
+      "date": "2023-12-20",
+      "location": "Épicerie - Place Vendôme",
+      "service": "Dépannage",
+      "text": "Rideau complètement bloqué le samedi soir. Appel à 21h, technicien sur place à 21h30 près de Place Vendôme. Problème résolu en 45 minutes. Service vraiment au top pour une urgence !"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Qui appeler pour un dépannage de rideau métallique à Paris 1er ?",
+      "answer": "Pour tout dépannage de rideau métallique à <strong>Paris 1er (75001)</strong>, contactez <strong>DRM Paris 1 au 01 85 09 99 36</strong>. Notre équipe intervient en urgence 24h/24 et 7j/7 dans tous les quartiers : Les Halles, Louvre, Palais-Royal, Place Vendôme et Châtelet."
+    },
+    {
+      "question": "Quel est le délai d'intervention à Paris 1er ?",
+      "answer": "Nos techniciens interviennent en <strong>30 minutes maximum</strong> à Paris 1er et dans les arrondissements limitrophes. Nous sommes disponibles 24h/24, 7j/7, y compris les jours fériés et week-ends."
+    },
+    {
+      "question": "Quels services proposez-vous pour les rideaux métalliques ?",
+      "answer": "DRM Paris 1 propose une gamme complète de services : <strong>dépannage d'urgence</strong> 24h/24, installation de rideaux neufs, motorisation de rideaux manuels, contrats d'entretien préventif, et réparation de tous les composants (moteur, lames, axe, serrure)."
+    },
+    {
+      "question": "Comment obtenir un devis pour mon rideau métallique ?",
+      "answer": "Contactez-nous au <strong>01 85 09 99 36</strong> pour obtenir un <strong>devis gratuit et personnalisé</strong>. Notre technicien évalue votre situation et vous remet un devis détaillé avant toute intervention. Aucune surprise, engagement transparent."
+    },
+    {
+      "question": "Intervenez-vous sur toutes les marques de rideaux ?",
+      "answer": "Oui, nos techniciens sont formés sur <strong>toutes les marques</strong> : Somfy, Nice, Came, Hörmann, Bubendorff, Simu, Profalux, France Fermetures. Nous utilisons exclusivement des pièces d'origine constructeur."
+    }
+  ],
+  "cta": {
+    "title": "Besoin d'un dépannage rideau métallique à Paris 1er ?",
+    "subtitle": "Notre équipe intervient 24h/24 et 7j/7. Appelez-nous pour un devis gratuit et une intervention rapide."
   }
 }
-

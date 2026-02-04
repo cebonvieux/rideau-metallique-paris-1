@@ -4,8 +4,8 @@ import { siteConfig, zones } from "@/config/site";
 import { CTA } from "@/components/sections/CTA";
 
 export const metadata: Metadata = {
-  title: `Zones d'intervention`,
-  description: `Dépannage rideau métallique à ${siteConfig.city} et environs. Intervention rapide 24h/24. ☎️ ${siteConfig.phone}`,
+  title: `Zones d'intervention - ${siteConfig.name}`,
+  description: `Dépannage rideau métallique à ${siteConfig.city} et environs. Intervention rapide 24h/24. ${siteConfig.phone}`,
 };
 
 export default function ZonesPage() {
@@ -13,44 +13,73 @@ export default function ZonesPage() {
   const otherZones = zones.filter(z => !z.isMain);
 
   return (
-    <main className="pt-20">
-      <section className="py-16 bg-gradient-to-br from-primary-50 via-white to-gray-50">
-        <div className="container text-center">
-          <span className="badge-primary mb-4">📍 Zones d&apos;intervention</span>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Rideau Métallique {siteConfig.city}</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Intervention rapide sur {siteConfig.city} et toute l&apos;agglomération.
-          </p>
+    <main>
+      {/* Hero */}
+      <section className="relative bg-white pt-32 pb-16">
+        <div className="container">
+          <div className="max-w-2xl">
+            <span className="label mb-8">
+              <span className="w-12 h-px bg-neutral-900 mr-4" />
+              Zones d&apos;intervention
+            </span>
+            <h1>
+              Rideau Métallique<br />
+              <span className="text-neutral-400">{siteConfig.city}</span>
+            </h1>
+            <p className="text-lg text-neutral-500 mt-6">
+              Intervention rapide sur {siteConfig.city} et toute l&apos;agglomération parisienne.
+            </p>
+          </div>
         </div>
       </section>
 
+      {/* Zone principale */}
       {mainCity && (
-        <section className="section bg-white">
-          <div className="container">
-            <div className="bg-primary-600 rounded-2xl p-8 md:p-12 text-white text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">{mainCity.name}</h2>
-              <p className="text-primary-100 text-lg mb-6 max-w-2xl mx-auto">
-                Basés à {mainCity.name}, nous intervenons en 1 heure maximum pour tous vos besoins en rideau métallique.
-              </p>
-              <a href={siteConfig.phoneLink} className="btn-phone inline-flex">📞 {siteConfig.phone}</a>
+        <section className="bg-neutral-900 text-white">
+          <div className="container py-16">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+              <div>
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{mainCity.name}</h2>
+                <p className="text-neutral-400 text-lg max-w-xl">
+                  Basés à {mainCity.name}, nous intervenons en moins d&apos;une heure pour tous vos besoins en rideau métallique.
+                </p>
+              </div>
+              <a href={siteConfig.phoneLink} className="btn-call whitespace-nowrap">
+                {siteConfig.phone}
+              </a>
             </div>
           </div>
         </section>
       )}
 
-      <section className="section bg-gray-50">
+      {/* Toutes les zones */}
+      <section className="section bg-white">
         <div className="container">
-          <h2 className="section-title text-center mb-12">Toutes nos zones</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            {otherZones.map((zone) => (
-              <Link key={zone.slug} href={`/zones/${zone.slug}`} className="bg-white rounded-xl p-4 text-center shadow-sm hover:shadow-md border border-gray-100 transition-all">
-                <svg className="w-8 h-8 text-primary-600 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                </svg>
-                <h3 className="font-semibold text-gray-900 text-sm mb-1">{zone.name}</h3>
-                <p className="text-xs text-gray-500">{zone.postalCode}</p>
-              </Link>
-            ))}
+          <div className="mb-12">
+            <span className="label mb-6">
+              <span className="label-number">{zones.length}</span>
+              zones couvertes
+            </span>
+            <h2>Toutes nos zones d&apos;intervention</h2>
+          </div>
+          
+          <div className="border-t border-l border-neutral-200">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+              {otherZones.map((zone) => (
+                <Link 
+                  key={zone.slug} 
+                  href={`/zones/${zone.slug}`} 
+                  className="p-5 border-r border-b border-neutral-200 hover:bg-neutral-900 hover:text-white transition-colors text-center group"
+                >
+                  <span className="block font-medium text-neutral-900 group-hover:text-white transition-colors">
+                    {zone.name}
+                  </span>
+                  <span className="block text-xs text-neutral-400 mt-1">
+                    {zone.postalCode}
+                  </span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -59,4 +88,3 @@ export default function ZonesPage() {
     </main>
   );
 }
-

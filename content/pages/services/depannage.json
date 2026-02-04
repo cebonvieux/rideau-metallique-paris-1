@@ -47,6 +47,24 @@
       "Garantie sur les réparations effectuées"
     ]
   },
+  "faq": [
+    {
+      "question": "Qui appeler pour un dépannage de rideau métallique à {zone} ?",
+      "answer": "Pour un dépannage urgent de rideau métallique à <strong>{zone} ({zonePostal})</strong>, appelez <strong>{name} au {phone}</strong>. Notre équipe intervient 24h/24 et 7j/7 pour débloquer, réparer et remettre en service votre rideau."
+    },
+    {
+      "question": "Quel est le délai d'intervention pour un dépannage à {zone} ?",
+      "answer": "Nos techniciens interviennent en <strong>30 minutes maximum</strong> à {zone} pour les urgences. Nous sommes disponibles 24h/24, 7j/7, y compris les jours fériés et les week-ends."
+    },
+    {
+      "question": "Comment obtenir un devis pour un dépannage à {zone} ?",
+      "answer": "Nous vous communiquons un <strong>devis gratuit et détaillé</strong> avant toute intervention. Appelez-nous au <strong>{phone}</strong> pour décrire votre panne, nous vous donnerons une estimation et interviendrons rapidement à {zone}."
+    },
+    {
+      "question": "Mon rideau est bloqué à {zone}, que faire en urgence ?",
+      "answer": "N'essayez pas de forcer le mécanisme. Appelez-nous immédiatement au <strong>{phone}</strong>. Notre technicien interviendra rapidement à {zone} pour débloquer votre rideau en toute sécurité et diagnostiquer la cause du blocage."
+    }
+  ],
   "cta": {
     "title": "Besoin d'un dépannage à {zone} ?",
     "subtitle": "Nos techniciens sont disponibles maintenant. Appelez pour une intervention rapide !"

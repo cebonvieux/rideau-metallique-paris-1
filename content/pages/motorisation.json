@@ -1,54 +1,201 @@
 {
   "hero": {
     "badge": "⚡ Motorisation",
-    "title": "Motorisation Rideau Métallique {city}",
-    "subtitle": "Automatisez votre rideau métallique pour plus de confort et de sécurité. Installation moteur, télécommande, clavier à code."
+    "title": "Motorisation Rideau Métallique Paris 1er",
+    "subtitle": "Automatisez votre rideau métallique pour plus de confort et de sécurité. Installation de moteur, télécommande, clavier à code par nos techniciens qualifiés à Paris 1er."
   },
   "avantages": [
     {
       "icon": "🎮",
       "title": "Confort d'utilisation",
-      "description": "Ouvrez et fermez votre rideau d'un simple clic, sans effort."
+      "description": "Ouvrez et fermez votre rideau d'un simple clic sur la télécommande, sans effort physique."
     },
     {
       "icon": "🔐",
       "title": "Sécurité renforcée",
-      "description": "Système anti-relevage et verrouillage automatique."
+      "description": "Système anti-relevage intégré et verrouillage automatique pour une protection optimale."
     },
     {
       "icon": "⏱️",
       "title": "Gain de temps",
-      "description": "Ouverture/fermeture rapide, programmation horaire possible."
+      "description": "Ouverture/fermeture en quelques secondes. Programmation horaire automatique possible."
     },
     {
       "icon": "📱",
       "title": "Pilotage à distance",
-      "description": "Contrôle via smartphone avec les motorisations connectées."
+      "description": "Contrôlez votre rideau depuis votre smartphone avec les motorisations connectées."
+    },
+    {
+      "icon": "💪",
+      "title": "Moins de fatigue",
+      "description": "Fini les efforts quotidiens pour lever et baisser un rideau lourd manuellement."
+    },
+    {
+      "icon": "🔧",
+      "title": "Moins d'usure",
+      "description": "Un moteur assure une montée/descente régulière qui préserve le mécanisme."
     }
   ],
   "types": [
     {
       "icon": "🔄",
       "title": "Moteur tubulaire",
-      "description": "Intégré dans l'axe d'enroulement. Discret et efficace pour rideaux jusqu'à 200kg.",
-      "price": "À partir de 450€"
+      "description": "Intégré dans l'axe d'enroulement. Solution discrète et élégante. Idéal pour rideaux jusqu'à 200 kg.",
+      "specs": ["Puissance : 100-300 Nm", "Silencieux", "Télécommande incluse"]
     },
     {
       "icon": "⚙️",
       "title": "Moteur central",
-      "description": "Pour rideaux lourds et grandes dimensions. Puissance et fiabilité.",
-      "price": "À partir de 650€"
+      "description": "Fixé au centre de l'axe. Pour rideaux lourds et grandes dimensions jusqu'à 500 kg.",
+      "specs": ["Puissance : 400-1000 Nm", "Très robuste", "Usage intensif"]
     },
     {
       "icon": "🔗",
       "title": "Moteur latéral",
-      "description": "Installation en applique. Solution économique et facile à entretenir.",
-      "price": "À partir de 350€"
+      "description": "Installation en applique sur le côté. Solution économique et facile à entretenir.",
+      "specs": ["Puissance : 150-400 Nm", "Économique", "Entretien facile"]
+    }
+  ],
+  "accessoires": {
+    "title": "Accessoires et options",
+    "subtitle": "Personnalisez votre installation avec nos accessoires",
+    "items": [
+      {
+        "icon": "📡",
+        "name": "Télécommande",
+        "description": "Télécommande radio 1 à 4 canaux"
+      },
+      {
+        "icon": "🔢",
+        "name": "Clavier à code",
+        "description": "Ouverture par code à 4-6 chiffres"
+      },
+      {
+        "icon": "🔑",
+        "name": "Sélecteur à clé",
+        "description": "Commande par clé (intérieur/extérieur)"
+      },
+      {
+        "icon": "📱",
+        "name": "Module connecté",
+        "description": "Pilotage smartphone via WiFi"
+      },
+      {
+        "icon": "🔋",
+        "name": "Batterie secours",
+        "description": "Fonctionnement en cas de coupure"
+      },
+      {
+        "icon": "🚨",
+        "name": "Gyrophare",
+        "description": "Signalisation visuelle mouvement"
+      }
+    ]
+  },
+  "comparatif": {
+    "title": "Manuel vs Motorisé : le comparatif",
+    "subtitle": "Découvrez pourquoi 90% de nos clients choisissent la motorisation",
+    "manuel": {
+      "label": "Rideau manuel",
+      "points": [
+        { "text": "Effort physique quotidien", "good": false },
+        { "text": "Temps d'ouverture : 30-60 sec", "good": false },
+        { "text": "Usure rapide des éléments", "good": false },
+        { "text": "Pas de sécurité anti-relevage", "good": false },
+        { "text": "Coût initial plus bas", "good": true }
+      ]
+    },
+    "motorise": {
+      "label": "Rideau motorisé",
+      "points": [
+        { "text": "Ouverture d'un clic", "good": true },
+        { "text": "Temps d'ouverture : 10-15 sec", "good": true },
+        { "text": "Mécanisme préservé", "good": true },
+        { "text": "Sécurité anti-relevage", "good": true },
+        { "text": "Investissement rentabilisé", "good": true }
+      ]
+    }
+  },
+  "roi": {
+    "title": "Retour sur investissement",
+    "subtitle": "La motorisation, un investissement rapidement rentabilisé",
+    "items": [
+      {
+        "icon": "⏱️",
+        "value": "5 min/jour",
+        "label": "Temps gagné",
+        "description": "Soit 30 heures par an"
+      },
+      {
+        "icon": "💪",
+        "value": "0 effort",
+        "label": "Fatigue épargnée",
+        "description": "Préservez votre dos"
+      },
+      {
+        "icon": "🔧",
+        "value": "-50%",
+        "label": "Coûts maintenance",
+        "description": "Moins d'usure = moins de pannes"
+      },
+      {
+        "icon": "📈",
+        "value": "+10%",
+        "label": "Valeur du local",
+        "description": "Un atout pour la revente"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Philippe R.",
+      "rating": 5,
+      "date": "2024-01-05",
+      "location": "Restaurant - Châtelet",
+      "service": "Motorisation",
+      "text": "Motorisation de mon ancien rideau manuel. Le technicien de DRM Paris 1 a fait un travail impeccable à Châtelet. Plus besoin de forcer tous les matins ! Devis respecté et garantie incluse."
+    },
+    {
+      "author": "Nathalie B.",
+      "rating": 5,
+      "date": "2024-01-12",
+      "location": "Pressing - Les Halles",
+      "service": "Motorisation + clavier",
+      "text": "Installation d'un moteur tubulaire avec clavier à code pour mon pressing aux Halles. Mes employés peuvent maintenant ouvrir facilement le rideau. Installation rapide et propre. Très satisfaite !"
+    },
+    {
+      "author": "Olivier M.",
+      "rating": 5,
+      "date": "2023-12-22",
+      "location": "Garage - Louvre",
+      "service": "Motorisation centrale",
+      "text": "Grand rideau de garage motorisé près du Louvre. Le moteur central choisi est très puissant et silencieux. L'équipe DRM a été très pro. Je recommande sans hésitation."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Qui appeler pour motoriser un rideau métallique à Paris 1er ?",
+      "answer": "Pour la motorisation de votre rideau métallique à <strong>Paris 1er</strong>, contactez <strong>DRM Paris 1 au 01 85 09 99 36</strong>. Nos techniciens interviennent dans tous les quartiers : Les Halles, Louvre, Palais-Royal, Place Vendôme et Châtelet. Étude de faisabilité et devis gratuits."
+    },
+    {
+      "question": "Peut-on motoriser n'importe quel rideau manuel ?",
+      "answer": "Dans <strong>90% des cas</strong>, il est possible de motoriser un rideau manuel existant. Notre technicien réalise une étude gratuite pour vérifier la faisabilité et vous recommander le type de moteur adapté à votre installation."
+    },
+    {
+      "question": "Comment obtenir un devis pour une motorisation ?",
+      "answer": "Pour obtenir un <strong>devis gratuit</strong> et personnalisé, contactez-nous au <strong>01 85 09 99 36</strong>. Notre technicien se déplace gratuitement pour évaluer votre installation et vous proposer la solution la plus adaptée à vos besoins."
+    },
+    {
+      "question": "Quelle est la durée d'installation ?",
+      "answer": "L'installation d'une motorisation prend généralement <strong>2 à 4 heures</strong> selon la configuration. Votre commerce peut rester ouvert pendant l'intervention."
+    },
+    {
+      "question": "Que se passe-t-il en cas de coupure de courant ?",
+      "answer": "En cas de coupure, vous pouvez actionner le rideau manuellement grâce au <strong>débrayage d'urgence</strong>. Nous proposons également des batteries de secours pour maintenir le fonctionnement électrique."
     }
   ],
   "cta": {
     "title": "Motorisez votre rideau métallique",
-    "subtitle": "Devis gratuit. Installation par nos techniciens qualifiés."
+    "subtitle": "Devis gratuit. Installation par nos techniciens qualifiés à Paris 1er."
   }
 }
-

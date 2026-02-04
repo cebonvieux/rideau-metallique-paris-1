@@ -1,35 +1,150 @@
-[
-  {
-    "question": "Quel est le délai d'intervention pour un dépannage ?",
-    "answer": "Nos techniciens interviennent en <strong>1 heure maximum</strong> sur {city} et son agglomération pour les urgences. Nous sommes disponibles 24h/24 et 7j/7, y compris les jours fériés."
-  },
-  {
-    "question": "Mon rideau métallique est bloqué, que faire ?",
-    "answer": "N'essayez pas de forcer le mécanisme, vous risqueriez d'aggraver la panne. Appelez-nous immédiatement au <strong>{phone}</strong>. Nos techniciens diagnostiqueront le problème et le résoudront rapidement."
-  },
-  {
-    "question": "Combien coûte un dépannage de rideau métallique ?",
-    "answer": "Le tarif dépend du type de panne et des pièces à remplacer. Un dépannage simple (déblocage) coûte entre <strong>150€ et 250€</strong>. Nous vous communiquons un devis précis avant toute intervention."
-  },
-  {
-    "question": "Intervenez-vous sur toutes les marques ?",
-    "answer": "Oui, nos techniciens sont formés sur <strong>toutes les marques</strong> de rideaux métalliques et de motorisations : Somfy, Nice, Came, Hörmann, Bubendorff, et bien d'autres."
-  },
-  {
-    "question": "Proposez-vous des contrats d'entretien ?",
-    "answer": "Oui, nous proposons des <strong>contrats de maintenance préventive</strong> pour prolonger la durée de vie de votre rideau et éviter les pannes. Une visite annuelle comprend le graissage, les réglages et le contrôle de sécurité."
-  },
-  {
-    "question": "Quelle est la durée de vie d'un rideau métallique ?",
-    "answer": "Un rideau métallique bien entretenu a une durée de vie de <strong>15 à 25 ans</strong>. La motorisation doit généralement être remplacée tous les 10-15 ans selon l'utilisation."
-  },
-  {
-    "question": "Pouvez-vous motoriser mon rideau manuel ?",
-    "answer": "Oui, dans la plupart des cas il est possible de <strong>motoriser un rideau manuel existant</strong>. Nous réalisons une étude de faisabilité gratuite et vous proposons la solution la plus adaptée."
-  },
-  {
-    "question": "Vos interventions sont-elles garanties ?",
-    "answer": "Oui, toutes nos interventions sont <strong>garanties 1 an</strong> (pièces et main d'œuvre). Les rideaux neufs bénéficient d'une garantie constructeur de 2 à 5 ans selon les modèles."
-  }
-]
-
+{
+  "global": [
+    {
+      "question": "Qui appeler pour un dépannage de rideau métallique à {zone} ?",
+      "answer": "Pour un dépannage de rideau métallique à <strong>{zone} ({zonePostal})</strong>, appelez <strong>{name} au {phone}</strong>. Notre équipe intervient en urgence 24h/24 et 7j/7. Nous sommes spécialisés dans le dépannage de rideaux métalliques pour les commerces de {zone} et ses environs."
+    },
+    {
+      "question": "Quel est le délai d'intervention pour un dépannage à {zone} ?",
+      "answer": "Nos techniciens interviennent en <strong>30 minutes maximum</strong> à {zone} et dans tout {department} pour les urgences. Nous sommes disponibles 24h/24 et 7j/7, y compris les jours fériés."
+    },
+    {
+      "question": "Mon rideau métallique est bloqué à {zone}, que faire ?",
+      "answer": "N'essayez pas de forcer le mécanisme, vous risqueriez d'aggraver la panne. Appelez-nous immédiatement au <strong>{phone}</strong>. Nos techniciens diagnostiqueront le problème et le résoudront rapidement. Nous intervenons pour tous types de blocages : rideau coincé en position haute, basse ou à mi-course."
+    },
+    {
+      "question": "Comment obtenir un devis pour un dépannage ?",
+      "answer": "Nous vous communiquons un <strong>devis gratuit et détaillé</strong> avant toute intervention. Appelez-nous au <strong>{phone}</strong> pour décrire votre panne, nous vous donnerons une estimation et interviendrons rapidement."
+    },
+    {
+      "question": "Intervenez-vous sur toutes les marques de rideaux métalliques ?",
+      "answer": "Oui, nos techniciens sont formés sur <strong>toutes les marques</strong> de rideaux métalliques et de motorisations : Somfy, Nice, Came, Hörmann, Bubendorff, Simu, Profalux, France Fermetures et bien d'autres."
+    },
+    {
+      "question": "Proposez-vous des contrats d'entretien à {zone} ?",
+      "answer": "Oui, nous proposons des <strong>contrats de maintenance préventive</strong> pour prolonger la durée de vie de votre rideau et éviter les pannes. Plusieurs formules sont disponibles selon vos besoins. Chaque visite comprend le graissage, les réglages et le contrôle de sécurité. Contactez-nous pour un devis personnalisé."
+    },
+    {
+      "question": "Quelle est la durée de vie d'un rideau métallique ?",
+      "answer": "Un rideau métallique bien entretenu a une durée de vie de <strong>15 à 25 ans</strong>. La motorisation doit généralement être remplacée tous les 10-15 ans selon l'utilisation. Un entretien régulier peut doubler la durée de vie de votre équipement."
+    },
+    {
+      "question": "Pouvez-vous motoriser mon rideau manuel à {zone} ?",
+      "answer": "Oui, dans la plupart des cas il est possible de <strong>motoriser un rideau manuel existant</strong>. Nous réalisons une étude de faisabilité gratuite et vous proposons la solution la plus adaptée : moteur tubulaire, central ou latéral. Contactez-nous pour un devis gratuit."
+    },
+    {
+      "question": "Vos interventions sont-elles garanties ?",
+      "answer": "Oui, toutes nos interventions sont <strong>garanties 1 an</strong> (pièces et main d'œuvre). Les rideaux neufs bénéficient d'une garantie constructeur de 2 à 5 ans selon les modèles. Nous utilisons exclusivement des pièces d'origine constructeur."
+    },
+    {
+      "question": "Quelles zones couvrez-vous autour de {city} ?",
+      "answer": "Nous intervenons dans tout le <strong>1er arrondissement</strong> (Les Halles, Louvre, Palais-Royal, Place Vendôme, Châtelet) ainsi que dans les arrondissements limitrophes : 2ème, 3ème, 4ème, 5ème, 6ème, 7ème, 8ème, 9ème et 10ème. Nous couvrons également les communes proches : Boulogne-Billancourt, Neuilly-sur-Seine, Levallois-Perret, Clichy, Saint-Denis, Vincennes et Montreuil."
+    }
+  ],
+  "depannage": [
+    {
+      "question": "Qui appeler pour un dépannage de rideau métallique à {zone} ?",
+      "answer": "Pour un dépannage urgent de rideau métallique à <strong>{zone} ({zonePostal})</strong>, appelez <strong>{name} au {phone}</strong>. Notre équipe intervient 24h/24 et 7j/7 pour débloquer, réparer et remettre en service votre rideau."
+    },
+    {
+      "question": "Quel est le délai d'intervention pour un dépannage urgent ?",
+      "answer": "Nos techniciens interviennent en <strong>30 minutes maximum</strong> à {zone} pour les urgences. Nous sommes disponibles 24h/24, 7j/7, y compris les jours fériés et les week-ends."
+    },
+    {
+      "question": "Comment obtenir un devis pour un dépannage ?",
+      "answer": "Nous établissons un <strong>devis gratuit et sans engagement</strong> avant chaque intervention. Le devis détaillé vous est communiqué avant le début des travaux, sans surprise. Appelez-nous au <strong>{phone}</strong> pour une estimation rapide."
+    },
+    {
+      "question": "Réparez-vous les rideaux de toutes les marques ?",
+      "answer": "Oui, nos techniciens sont formés sur <strong>toutes les marques</strong> : Somfy, Nice, Came, Hörmann, Bubendorff, Simu, et bien d'autres. Nous utilisons des pièces d'origine constructeur."
+    },
+    {
+      "question": "Mon rideau est bloqué en position haute, que faire ?",
+      "answer": "N'essayez pas de forcer le mécanisme. Appelez-nous immédiatement au <strong>{phone}</strong>. Notre technicien interviendra pour débloquer votre rideau en toute sécurité et diagnostiquer la cause du blocage."
+    }
+  ],
+  "installation": [
+    {
+      "question": "Qui appeler pour une installation de rideau métallique à {zone} ?",
+      "answer": "Pour une installation de rideau métallique à <strong>{zone} ({zonePostal})</strong>, contactez <strong>{name} au {phone}</strong>. Nous intervenons pour la pose de tous types de rideaux : lames pleines, micro-perforés, grilles métalliques. Devis gratuit sous 24h."
+    },
+    {
+      "question": "Quel est le délai d'installation d'un rideau métallique ?",
+      "answer": "Comptez environ <strong>2 à 3 semaines</strong> entre la commande et l'installation. Ce délai comprend la fabrication sur mesure de votre rideau. La pose en elle-même se fait généralement en une journée."
+    },
+    {
+      "question": "Comment obtenir un devis pour une installation ?",
+      "answer": "Pour obtenir un <strong>devis gratuit et personnalisé</strong>, contactez-nous au <strong>{phone}</strong>. Notre technicien se déplace gratuitement pour évaluer votre local et vous proposer la solution adaptée à vos besoins."
+    },
+    {
+      "question": "Quelle est la durée de la garantie ?",
+      "answer": "Nos installations sont <strong>garanties 2 ans</strong> (pièces et main d'œuvre). Une extension de garantie jusqu'à 5 ans est disponible. Les moteurs bénéficient de la garantie constructeur (2 à 5 ans selon les marques)."
+    },
+    {
+      "question": "Installez-vous des rideaux pour tous types de commerces ?",
+      "answer": "Oui, nous installons des rideaux pour <strong>tous types de locaux</strong> : boutiques, restaurants, pharmacies, bijouteries, bureaux, entrepôts. Nous adaptons le type de rideau à votre activité et vos besoins de sécurité."
+    }
+  ],
+  "entretien": [
+    {
+      "question": "Qui appeler pour l'entretien d'un rideau métallique à {zone} ?",
+      "answer": "Pour l'entretien de votre rideau métallique à <strong>{zone} ({zonePostal})</strong>, contactez <strong>{name} au {phone}</strong>. Nous proposons des contrats de maintenance adaptés à vos besoins : Essentiel, Sérénité et Premium."
+    },
+    {
+      "question": "À quelle fréquence faut-il entretenir un rideau métallique ?",
+      "answer": "Il est recommandé de faire entretenir son rideau <strong>au minimum 1 fois par an</strong>. Pour les commerces à forte utilisation (ouvertures/fermetures multiples par jour), nous conseillons 2 à 4 visites annuelles."
+    },
+    {
+      "question": "Que comprend une visite d'entretien ?",
+      "answer": "Une visite d'entretien comprend : <strong>graissage complet</strong> de toutes les pièces mobiles, réglages mécaniques, contrôle de sécurité, test de la motorisation, inspection visuelle et rapport d'intervention."
+    },
+    {
+      "question": "L'entretien est-il obligatoire pour les commerces ?",
+      "answer": "Il n'y a pas d'obligation légale, mais de nombreuses <strong>assurances professionnelles</strong> exigent un entretien régulier pour couvrir les sinistres liés au rideau. De plus, un rideau bien entretenu garantit la sécurité de votre local."
+    },
+    {
+      "question": "Puis-je résilier mon contrat d'entretien ?",
+      "answer": "Nos contrats sont sans engagement de durée. Vous pouvez <strong>résilier à tout moment</strong> avec un préavis d'un mois. Les visites déjà effectuées ne sont pas remboursables."
+    }
+  ],
+  "motorisation": [
+    {
+      "question": "Qui appeler pour motoriser un rideau métallique à {zone} ?",
+      "answer": "Pour la motorisation de votre rideau métallique à <strong>{zone} ({zonePostal})</strong>, contactez <strong>{name} au {phone}</strong>. Nos techniciens réalisent une étude de faisabilité gratuite et vous proposent le moteur adapté à votre installation."
+    },
+    {
+      "question": "Peut-on motoriser n'importe quel rideau manuel ?",
+      "answer": "Dans <strong>90% des cas</strong>, il est possible de motoriser un rideau manuel existant. Notre technicien réalise une étude gratuite pour vérifier la faisabilité et vous recommander le type de moteur adapté à votre installation."
+    },
+    {
+      "question": "Comment obtenir un devis pour une motorisation ?",
+      "answer": "Pour obtenir un <strong>devis gratuit</strong>, contactez-nous au <strong>{phone}</strong>. Notre technicien évalue votre installation et vous recommande le type de moteur le plus adapté. Devis détaillé et sans engagement."
+    },
+    {
+      "question": "Quelle est la durée d'installation ?",
+      "answer": "L'installation d'une motorisation prend généralement <strong>2 à 4 heures</strong> selon la configuration. Votre commerce peut rester ouvert pendant l'intervention."
+    },
+    {
+      "question": "Que se passe-t-il en cas de coupure de courant ?",
+      "answer": "En cas de coupure, vous pouvez actionner le rideau manuellement grâce au <strong>débrayage d'urgence</strong>. Nous proposons également des batteries de secours pour maintenir le fonctionnement électrique."
+    }
+  ],
+  "contact": [
+    {
+      "question": "Qui appeler pour un rideau métallique bloqué à {zone} ?",
+      "answer": "Appelez <strong>{name} au {phone}</strong>. Nous intervenons en urgence 24h/24 et 7j/7 à {zone} ({zonePostal}) et dans tous les quartiers environnants."
+    },
+    {
+      "question": "Comment obtenir un devis gratuit ?",
+      "answer": "Vous pouvez obtenir un devis gratuit de plusieurs façons : par téléphone au <strong>{phone}</strong>, par email à {email}, ou en remplissant le formulaire de contact. Nous vous répondons sous 24h maximum."
+    },
+    {
+      "question": "Quels sont vos délais d'intervention ?",
+      "answer": "Pour les urgences, nous intervenons en <strong>30 minutes maximum</strong> à {zone} et les zones limitrophes. Pour les interventions planifiées (installation, entretien), nous vous proposons un rendez-vous sous 24 à 48h."
+    },
+    {
+      "question": "Proposez-vous des devis pour les professionnels ?",
+      "answer": "Oui, nous travaillons avec de nombreux <strong>professionnels, syndics et gestionnaires</strong>. Nous proposons des devis adaptés et des contrats de maintenance pour les commerces, entrepôts et copropriétés."
+    }
+  ]
+}

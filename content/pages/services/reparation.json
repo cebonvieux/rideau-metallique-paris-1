@@ -47,6 +47,24 @@
       "Devis détaillé avant intervention"
     ]
   },
+  "faq": [
+    {
+      "question": "Qui appeler pour réparer un rideau métallique à {zone} ?",
+      "answer": "Pour la réparation de votre rideau métallique à <strong>{zone} ({zonePostal})</strong>, contactez <strong>{name} au {phone}</strong>. Nous réparons tous les composants : lames, moteur, axe, serrure."
+    },
+    {
+      "question": "Réparez-vous les rideaux de toutes les marques à {zone} ?",
+      "answer": "Oui, nos techniciens sont formés sur <strong>toutes les marques</strong> : Somfy, Nice, Came, Hörmann, Bubendorff, Simu. Nous utilisons des pièces d'origine constructeur."
+    },
+    {
+      "question": "Comment obtenir un devis pour une réparation à {zone} ?",
+      "answer": "Contactez-nous au <strong>{phone}</strong> pour un <strong>diagnostic gratuit</strong>. Notre technicien se déplace à {zone} pour évaluer les réparations nécessaires et vous remettre un devis détaillé, sans engagement."
+    },
+    {
+      "question": "Vos réparations sont-elles garanties ?",
+      "answer": "Oui, toutes nos réparations sont <strong>garanties 1 an</strong> (pièces et main d'œuvre). Nous utilisons exclusivement des pièces d'origine constructeur pour garantir la qualité."
+    }
+  ],
   "cta": {
     "title": "Réparation à {zone} ?",
     "subtitle": "Appelez pour un diagnostic gratuit de votre rideau."

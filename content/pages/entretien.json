@@ -1,74 +1,185 @@
 {
   "hero": {
-    "badge": "🛠️ Maintenance",
-    "title": "Entretien Rideau Métallique {city}",
-    "subtitle": "Prolongez la durée de vie de votre rideau avec un entretien régulier. Contrats de maintenance adaptés à vos besoins."
+    "badge": "🛠️ Maintenance préventive",
+    "title": "Entretien Rideau Métallique Paris 1er",
+    "subtitle": "Prolongez la durée de vie de votre rideau avec un entretien régulier. Contrats de maintenance adaptés à vos besoins pour commerces et professionnels à Paris 1er."
+  },
+  "signesUsure": {
+    "title": "Signes qu'il est temps d'entretenir votre rideau",
+    "subtitle": "Ne laissez pas ces symptômes s'aggraver. Un entretien préventif évite les pannes coûteuses.",
+    "items": [
+      {
+        "icon": "🔊",
+        "title": "Bruit anormal",
+        "description": "Grincements, crissements ou claquements lors de l'ouverture/fermeture."
+      },
+      {
+        "icon": "⏱️",
+        "title": "Lenteur",
+        "description": "Le rideau met plus de temps qu'avant à s'ouvrir ou se fermer."
+      },
+      {
+        "icon": "↔️",
+        "title": "Vibrations",
+        "description": "Le rideau vibre ou tremble pendant son fonctionnement."
+      },
+      {
+        "icon": "🚫",
+        "title": "Blocages",
+        "description": "Le rideau se bloque parfois en cours de course puis repart."
+      },
+      {
+        "icon": "⚡",
+        "title": "Moteur qui force",
+        "description": "Le moteur semble peiner ou fait un bruit plus fort que d'habitude."
+      },
+      {
+        "icon": "🔩",
+        "title": "Jeu mécanique",
+        "description": "Les lames ont du jeu ou ne s'alignent plus correctement."
+      }
+    ]
   },
   "avantages": [
     {
       "icon": "⏳",
       "title": "Durée de vie prolongée",
-      "description": "Un entretien régulier permet de doubler la durée de vie de votre rideau."
+      "description": "Un entretien régulier peut doubler la durée de vie de votre rideau (jusqu'à 25 ans au lieu de 12-15)."
     },
     {
       "icon": "💰",
       "title": "Économies sur les réparations",
-      "description": "Prévenir les pannes coûte moins cher que les réparer."
+      "description": "Un entretien préventif coûte 5 à 10 fois moins cher qu'une réparation d'urgence."
     },
     {
       "icon": "🔐",
       "title": "Sécurité optimale",
-      "description": "Un rideau bien entretenu assure une protection maximale."
+      "description": "Un rideau bien entretenu assure une protection maximale de votre commerce."
     },
     {
       "icon": "✅",
       "title": "Conformité assurance",
-      "description": "Un entretien régulier est souvent exigé par les assureurs."
+      "description": "Un entretien régulier est souvent exigé par les assureurs professionnels."
     }
   ],
   "prestations": [
     {
       "icon": "🔧",
       "title": "Graissage complet",
-      "description": "Lubrification de l'axe, des coulisses et des pièces mobiles."
+      "description": "Lubrification de l'axe d'enroulement, des coulisses, des ressorts et de toutes les pièces mobiles avec des graisses techniques professionnelles."
     },
     {
       "icon": "⚙️",
       "title": "Réglage mécanique",
-      "description": "Ajustement des tensions, des fins de course et de l'équilibrage."
+      "description": "Ajustement précis des tensions, des fins de course hautes et basses, et vérification de l'équilibrage du tablier."
     },
     {
       "icon": "🔍",
       "title": "Contrôle de sécurité",
-      "description": "Vérification des systèmes de sécurité et anti-chute."
+      "description": "Vérification du système anti-chute, des dispositifs de sécurité, et test des arrêts d'urgence."
+    },
+    {
+      "icon": "⚡",
+      "title": "Test motorisation",
+      "description": "Contrôle du moteur, vérification des connexions électriques, test des télécommandes et récepteurs."
+    },
+    {
+      "icon": "👁️",
+      "title": "Inspection visuelle",
+      "description": "Examen des lames, des coulisses, de l'axe et du coffre pour détecter toute usure ou dommage."
     },
     {
       "icon": "📋",
       "title": "Rapport d'intervention",
-      "description": "Compte-rendu détaillé avec recommandations."
+      "description": "Compte-rendu détaillé avec état général, travaux effectués, et recommandations pour les mois à venir."
     }
   ],
   "contrats": [
     {
       "name": "Essentiel",
-      "price": "150€/an",
-      "features": ["1 visite annuelle", "Graissage complet", "Réglages mécaniques", "Rapport d'intervention"]
+      "description": "L'essentiel pour entretenir votre rideau",
+      "features": [
+        "1 visite annuelle",
+        "Graissage complet",
+        "Réglages mécaniques",
+        "Contrôle de sécurité",
+        "Rapport d'intervention"
+      ]
     },
     {
       "name": "Sérénité",
-      "price": "250€/an",
-      "features": ["2 visites par an", "Tout Essentiel inclus", "Intervention prioritaire", "Remise 15% sur pièces"],
+      "description": "La formule recommandée pour les commerces actifs",
+      "features": [
+        "2 visites par an",
+        "Tout Essentiel inclus",
+        "Intervention prioritaire",
+        "Tarifs préférentiels sur les pièces",
+        "Support téléphonique dédié"
+      ],
       "isPopular": true
     },
     {
       "name": "Premium",
-      "price": "Sur devis",
-      "features": ["Visites trimestrielles", "Tout Sérénité inclus", "Dépannage gratuit", "Pièces d'usure incluses"]
+      "description": "La tranquillité totale pour les pros exigeants",
+      "features": [
+        "4 visites par an",
+        "Tout Sérénité inclus",
+        "Dépannages inclus",
+        "Pièces d'usure incluses",
+        "Accompagnement personnalisé"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Sophie L.",
+      "rating": 5,
+      "date": "2023-12-28",
+      "location": "Pharmacie - Louvre",
+      "service": "Contrat Sérénité",
+      "text": "Contrat d'entretien annuel pour ma pharmacie près du Louvre. Technicien très professionnel, il vient 2 fois par an. Mon rideau n'a plus de problème depuis la mise en place du contrat. Je recommande vivement !"
+    },
+    {
+      "author": "Michel D.",
+      "rating": 5,
+      "date": "2024-01-08",
+      "location": "Brasserie - Châtelet",
+      "service": "Contrat Essentiel",
+      "text": "J'ai souscrit au contrat Essentiel pour ma brasserie à Châtelet. Le technicien de DRM Paris 1 est venu faire l'entretien annuel. Travail impeccable, rideau comme neuf. Excellent rapport qualité/prix."
+    },
+    {
+      "author": "Isabelle R.",
+      "rating": 5,
+      "date": "2024-01-18",
+      "location": "Boutique déco - Palais-Royal",
+      "service": "Contrat Premium",
+      "text": "En tant que commerçante au Palais-Royal, j'ai besoin d'un rideau qui fonctionne parfaitement. Le contrat Premium me garantit une tranquillité totale. Les 4 visites annuelles sont très rassurantes."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Qui appeler pour l'entretien d'un rideau métallique à Paris 1er ?",
+      "answer": "Pour l'entretien de votre rideau métallique à <strong>Paris 1er</strong>, contactez <strong>DRM Paris 1 au 01 85 09 99 36</strong>. Nous proposons des contrats de maintenance adaptés à vos besoins dans tous les quartiers : Les Halles, Louvre, Palais-Royal, Place Vendôme et Châtelet."
+    },
+    {
+      "question": "À quelle fréquence faut-il entretenir un rideau métallique ?",
+      "answer": "Il est recommandé de faire entretenir son rideau <strong>au minimum 1 fois par an</strong>. Pour les commerces à forte utilisation (ouvertures/fermetures multiples par jour), nous conseillons 2 à 4 visites annuelles."
+    },
+    {
+      "question": "Que comprend une visite d'entretien ?",
+      "answer": "Une visite d'entretien comprend : <strong>graissage complet</strong> de toutes les pièces mobiles, réglages mécaniques, contrôle de sécurité, test de la motorisation, inspection visuelle et rapport d'intervention."
+    },
+    {
+      "question": "L'entretien est-il obligatoire pour les commerces ?",
+      "answer": "Il n'y a pas d'obligation légale, mais de nombreuses <strong>assurances professionnelles</strong> exigent un entretien régulier pour couvrir les sinistres liés au rideau. De plus, un rideau bien entretenu garantit la sécurité de votre local."
+    },
+    {
+      "question": "Puis-je résilier mon contrat d'entretien ?",
+      "answer": "Nos contrats sont sans engagement de durée. Vous pouvez <strong>résilier à tout moment</strong> avec un préavis d'un mois. Les visites déjà effectuées ne sont pas remboursables."
     }
   ],
   "cta": {
     "title": "Besoin d'un contrat d'entretien ?",
-    "subtitle": "Nos techniciens vous proposent la formule adaptée à vos besoins."
+    "subtitle": "Nos techniciens vous proposent la formule adaptée à vos besoins. Devis gratuit."
   }
 }
-

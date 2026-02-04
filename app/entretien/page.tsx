@@ -1,114 +1,245 @@
 import type { Metadata } from "next";
-import { siteConfig } from "@/config/site";
+import Image from "next/image";
+import Link from "next/link";
+import { siteConfig, zones } from "@/config/site";
 import { getPageContent } from "@/lib/content";
+import { SignesUsure } from "@/components/sections/SignesUsure";
+import { Reviews } from "@/components/sections/Reviews";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
-import faqData from "@/content/faq.json";
 import pageData from "@/content/pages/entretien.json";
 
 const content = getPageContent(pageData);
 
 export const metadata: Metadata = {
-  title: `Entretien Rideau Métallique`,
-  description: `Entretien et maintenance rideau métallique à ${siteConfig.city}. Contrats adaptés pour commerces et professionnels. ☎️ ${siteConfig.phone}`,
+  title: `Entretien Rideau Métallique Paris 1er (${siteConfig.postalCode})`,
+  description: `Entretien et maintenance rideau métallique à ${siteConfig.city}. Contrats adaptés à vos besoins. Devis gratuit. ${siteConfig.phone}`,
+  alternates: {
+    canonical: `${siteConfig.url}/entretien`,
+  },
+};
+
+// Schema FAQPage
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: content.faq.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer.replace(/<[^>]*>/g, ""),
+    },
+  })),
+};
+
+// Schema Service
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Entretien Rideau Métallique",
+  description: `Service d'entretien et maintenance de rideau métallique à ${siteConfig.city}. Contrats annuels pour commerces et professionnels.`,
+  provider: {
+    "@type": "LocalBusiness",
+    name: siteConfig.fullName,
+    telephone: siteConfig.phone,
+  },
+  areaServed: {
+    "@type": "City",
+    name: siteConfig.city,
+  },
 };
 
 export default function EntretienPage() {
   return (
-    <main className="pt-20">
-      {/* Hero */}
-      <section className="py-16 bg-gradient-to-br from-primary-50 via-white to-gray-50">
-        <div className="container text-center">
-          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary-100 text-primary-700 text-sm font-semibold mb-6">
-            {content.hero.badge}
-          </span>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{content.hero.title}</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">{content.hero.subtitle}</p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <a href={siteConfig.phoneLink} className="btn-primary">📞 Nous contacter</a>
-            <a href="#contrats" className="btn-secondary">Voir nos contrats</a>
-          </div>
-        </div>
-      </section>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <main>
+        {/* Hero */}
+        <section className="relative min-h-[80vh] bg-white overflow-hidden">
+          <div className="absolute inset-0 opacity-[0.03]" style={{
+            backgroundImage: `linear-gradient(to right, #000 1px, transparent 1px),
+                              linear-gradient(to bottom, #000 1px, transparent 1px)`,
+            backgroundSize: '60px 60px'
+          }} />
 
-      {/* Avantages */}
-      <section className="section bg-white">
-        <div className="container">
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="section-title">Pourquoi entretenir votre rideau ?</h2>
-          </div>
+          <div className="container relative z-10">
+            <div className="h-24" />
+            
+            <div className="grid lg:grid-cols-2 gap-16 items-center py-16 lg:py-24">
+              <div>
+                <span className="label mb-8">
+                  <span className="w-12 h-px bg-neutral-900 mr-4" />
+                  Maintenance préventive
+                </span>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {content.avantages.map((item, index) => (
-              <div key={index} className="card text-center">
-                <div className="w-14 h-14 mx-auto bg-primary-100 rounded-xl flex items-center justify-center text-2xl mb-4">{item.icon}</div>
-                <h3 className="font-bold text-lg text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-gray-600 text-sm">{item.description}</p>
+                <h1 className="mb-8">
+                  <span className="block">Entretien</span>
+                  <span className="block text-outline">Rideau</span>
+                  <span className="block">Métallique</span>
+                </h1>
+
+                <p className="text-lg text-neutral-500 max-w-md mb-10">
+                  {content.hero.subtitle}
+                </p>
+
+                <div className="flex flex-wrap gap-4">
+                  <a href={siteConfig.phoneLink} className="btn-call">
+                    <span className="relative flex h-3 w-3 mr-2">
+                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                      <span className="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+                    </span>
+                    Nous contacter
+                  </a>
+                  <Link href="#contrats" className="btn-outline">
+                    Voir nos contrats
+                  </Link>
+                </div>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* Prestations */}
-      <section className="section bg-gray-50">
-        <div className="container">
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="section-title">Ce que comprend notre entretien</h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {content.prestations.map((item, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-                <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center text-2xl mb-4">{item.icon}</div>
-                <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-gray-600 text-sm">{item.description}</p>
+              <div className="relative">
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <Image 
+                    src="/images/gallery/entretien-rideau-metallique-paris-1.webp" 
+                    alt={`Entretien rideau métallique ${siteConfig.city}`} 
+                    fill 
+                    className="object-cover" 
+                    priority 
+                  />
+                </div>
               </div>
-            ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Contrats */}
-      <section id="contrats" className="section bg-white">
-        <div className="container">
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="section-title">Nos contrats de maintenance</h2>
-            <p className="section-subtitle mx-auto">Choisissez la formule adaptée à vos besoins.</p>
-          </div>
+        {/* Signes d'usure */}
+        <SignesUsure 
+          title={content.signesUsure.title}
+          subtitle={content.signesUsure.subtitle}
+          items={content.signesUsure.items}
+        />
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {content.contrats.map((contrat, index) => (
-              <div key={index} className={`relative bg-white rounded-2xl p-8 border-2 ${contrat.isPopular ? 'border-primary-500 shadow-xl' : 'border-gray-100'}`}>
-                {contrat.isPopular && (
-                  <span className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary-600 text-white text-sm font-bold px-4 py-1 rounded-full">
-                    Recommandé
+        {/* Avantages */}
+        <section className="section bg-white">
+          <div className="container">
+            <div className="grid lg:grid-cols-2 gap-8 mb-20">
+              <div>
+                <span className="label mb-6">
+                  <span className="label-number">02</span>
+                  Avantages
+                </span>
+                <h2>
+                  Pourquoi<br />
+                  <span className="text-neutral-400">entretenir ?</span>
+                </h2>
+              </div>
+              <div className="flex items-end">
+                <p className="text-lg text-neutral-500 max-w-md">
+                  Un entretien régulier vous fait économiser de l&apos;argent et vous évite les pannes.
+                </p>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {content.avantages.map((item, index) => (
+                <div key={index} className="text-center">
+                  <span className="block text-5xl font-black text-neutral-100 mb-4">
+                    {String(index + 1).padStart(2, '0')}
                   </span>
-                )}
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{contrat.name}</h3>
-                <p className="text-3xl font-bold text-primary-600 mb-6">{contrat.price}</p>
-                <ul className="space-y-3">
-                  {contrat.features.map((feature, i) => (
-                    <li key={i} className="flex items-center gap-2 text-gray-600 text-sm">
-                      <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-                <a href={siteConfig.phoneLink} className={`w-full mt-6 ${contrat.isPopular ? 'btn-primary' : 'btn-secondary'} text-center block`}>
-                  Choisir
-                </a>
-              </div>
-            ))}
+                  <h3 className="font-semibold text-lg text-neutral-900 mb-2">{item.title}</h3>
+                  <p className="text-neutral-500 text-sm">{item.description}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <FAQ items={getPageContent(faqData).filter(q => q.question.toLowerCase().includes('entretien') || q.question.toLowerCase().includes('contrat'))} title="Questions sur l'entretien" />
-      <CTA title={content.cta.title} subtitle={content.cta.subtitle} />
-    </main>
+        {/* Prestations */}
+        <section id="contrats" className="section bg-neutral-900 text-white">
+          <div className="container">
+            <div className="max-w-2xl mb-16">
+              <span className="label text-neutral-500 mb-6">
+                <span className="label-number">03</span>
+                Prestations
+              </span>
+              <h2 className="text-white mb-6">Ce que comprend notre entretien</h2>
+              <p className="text-lg text-neutral-400">
+                Un entretien complet pour garantir le bon fonctionnement de votre rideau.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-neutral-800">
+              {content.prestations.map((item, index) => (
+                <div key={index} className="bg-neutral-900 p-8 hover:bg-neutral-800 transition-colors">
+                  <span className="block text-4xl font-black text-neutral-800 mb-4">
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+                  <h3 className="font-semibold text-lg text-white mb-2">{item.title}</h3>
+                  <p className="text-neutral-400 text-sm">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Avis clients */}
+        <Reviews 
+          title="Avis clients - Entretien" 
+          items={content.reviews} 
+        />
+
+        {/* Zones d'intervention */}
+        <section className="section bg-white">
+          <div className="container">
+            <div className="text-center max-w-2xl mx-auto mb-16">
+              <span className="label justify-center mb-6">
+                <span className="w-8 h-px bg-neutral-900 mr-3" />
+                Zones
+                <span className="w-8 h-px bg-neutral-900 ml-3" />
+              </span>
+              <h2 className="mb-4">Entretien - Zones d&apos;intervention</h2>
+              <p className="text-neutral-500">
+                Nous intervenons pour l&apos;entretien de rideaux métalliques dans toutes ces zones.
+              </p>
+            </div>
+            
+            <div className="border-t border-l border-neutral-200">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+                {zones.map((zone) => (
+                  <Link
+                    key={zone.slug}
+                    href={`/entretien/${zone.slug}`}
+                    className={`p-4 border-r border-b border-neutral-200 hover:bg-neutral-900 hover:text-white transition-colors text-center
+                      ${zone.isMain ? 'bg-neutral-900 text-white' : ''}`}
+                  >
+                    <span className="block font-medium">{zone.name}</span>
+                    <span className="block text-xs mt-1 opacity-60">{zone.postalCode}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <FAQ 
+          items={content.faq} 
+          title="Questions sur l'entretien" 
+        />
+
+        {/* CTA */}
+        <CTA 
+          title={content.cta.title} 
+          subtitle={content.cta.subtitle} 
+        />
+      </main>
+    </>
   );
 }
-

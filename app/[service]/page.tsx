@@ -1,11 +1,22 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig, zones, services } from "@/config/site";
 import { getPageContent, getServiceBySlug } from "@/lib/content";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
 import faqData from "@/content/faq.json";
+
+// Map des images par service
+const serviceImages: Record<string, string> = {
+  "depannage": "/images/gallery/dépannage-rideau-metallique-paris-1.webp",
+  "installation": "/images/gallery/installation-rideau-metallique-paris-1.webp",
+  "motorisation": "/images/gallery/motorisation-rideau-metallique-paris-1.webp",
+  "entretien": "/images/gallery/entretien-rideau-metallique-paris-1.webp",
+  "reparation": "/images/gallery/dépannage-rideau-metallique-paris-1.webp",
+  "deblocage": "/images/gallery/dépannage-rideau-metallique-paris-1.webp",
+};
 
 // Import des contenus de chaque service
 import depannageContent from "@/content/pages/services/depannage.json";
@@ -47,7 +58,7 @@ export function generateMetadata({ params }: Props): Metadata {
   }
 
   const title = `${service.name} Rideau Métallique ${siteConfig.city} - ${siteConfig.name}`;
-  const description = `${service.name} rideau métallique à ${siteConfig.city} et environs. ${service.longDesc} Intervention rapide 24h/24. ☎️ ${siteConfig.phone}`;
+  const description = `${service.name} rideau métallique à ${siteConfig.city} et environs. ${service.longDesc} Intervention rapide 24h/24. ${siteConfig.phone}`;
 
   return {
     title,
@@ -82,80 +93,112 @@ export default function ServicePage({ params }: Props) {
     serviceSlug: service.slug,
   });
 
-  // FAQ générale
-  const faq = getPageContent(faqData).slice(0, 5);
+  // FAQ spécifique au service ou générale
+  const faqCategory = (faqData as Record<string, typeof faqData.global>)[service.slug] || faqData.global;
+  const faq = getPageContent(faqCategory).slice(0, 5);
 
   // Autres services pour le maillage
   const otherServices = services.filter(s => s.slug !== service.slug && s.hasPage);
 
   return (
-    <main className="pt-20">
+    <main>
       {/* Breadcrumb */}
-      <nav className="bg-gray-50 py-3 border-b">
+      <nav className="bg-neutral-50 py-3 border-b border-neutral-200">
         <div className="container">
-          <ol className="flex items-center gap-2 text-sm text-gray-600">
-            <li><Link href="/" className="hover:text-primary-600">Accueil</Link></li>
+          <ol className="flex items-center gap-2 text-sm text-neutral-500">
+            <li><Link href="/" className="hover:text-neutral-900">Accueil</Link></li>
             <li>/</li>
-            <li className="text-gray-900 font-medium">{service.name}</li>
+            <li className="text-neutral-900 font-medium">{service.name}</li>
           </ol>
         </div>
       </nav>
 
       {/* Hero */}
-      <section className="relative py-16 md:py-24 bg-gradient-to-br from-primary-50 via-white to-gray-50">
+      <section className="relative bg-white pt-16 pb-24">
         <div className="container">
-          <div className="max-w-3xl">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-100 text-primary-700 text-sm font-semibold mb-6">
-              {content.hero.badge}
-            </span>
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <span className="label mb-8">
+                <span className="w-12 h-px bg-neutral-900 mr-4" />
+                {service.name}
+              </span>
 
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              {content.hero.title}
-            </h1>
+              <h1 className="mb-8">
+                {content.hero.title}
+              </h1>
 
-            <p className="text-lg text-gray-600 mb-8">
-              {content.hero.subtitle}
-            </p>
+              <p className="text-lg text-neutral-500 mb-10 max-w-lg">
+                {content.hero.subtitle}
+              </p>
 
-            <div className="flex flex-wrap gap-4">
-              <a href={siteConfig.phoneLink} className="btn-phone text-lg">
-                📞 {siteConfig.phone}
-              </a>
-              <Link href="/contact" className="btn-secondary">
-                Demander un devis
-              </Link>
+              <div className="flex flex-wrap gap-4">
+                <a href={siteConfig.phoneLink} className="btn-call">
+                  <span className="relative flex h-3 w-3 mr-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+                  </span>
+                  {siteConfig.phone}
+                </a>
+                <Link href="/contact" className="btn-outline">
+                  Demander un devis
+                </Link>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="aspect-[4/3] overflow-hidden">
+                <Image 
+                  src={serviceImages[service.slug] || "/images/gallery/rideau-métallique-paris-1.webp"} 
+                  alt={`${service.name} rideau métallique ${siteConfig.city}`} 
+                  fill 
+                  className="object-cover" 
+                  priority 
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Introduction */}
-      <section className="section bg-white">
+      <section className="section bg-neutral-50">
         <div className="container">
-          <div className="max-w-3xl mx-auto prose prose-lg">
-            <h2>{content.intro.title}</h2>
-            {content.intro.paragraphs.map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
+          <div className="max-w-3xl">
+            <span className="label mb-6">
+              <span className="label-number">01</span>
+              À propos
+            </span>
+            <h2 className="mb-8">{content.intro.title}</h2>
+            <div className="space-y-4 text-neutral-600 text-lg leading-relaxed">
+              {content.intro.paragraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
       {/* Situations / Types d'intervention */}
-      <section className="section bg-gray-50">
+      <section className="section bg-white">
         <div className="container">
-          <h2 className="section-title text-center mb-12">{content.situations.title}</h2>
+          <div className="max-w-2xl mb-16">
+            <span className="label mb-6">
+              <span className="label-number">02</span>
+              Interventions
+            </span>
+            <h2>{content.situations.title}</h2>
+          </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-neutral-200">
             {content.situations.items.map((item, index) => (
-              <div key={index} className="card">
-                <div className="w-14 h-14 bg-primary-100 rounded-2xl flex items-center justify-center text-2xl mb-4">
-                  {item.icon}
-                </div>
-                <h3 className="font-bold text-lg text-gray-900 mb-2">
+              <div key={index} className="bg-white p-8 hover:bg-neutral-50 transition-colors">
+                <span className="block text-4xl font-black text-neutral-100 mb-4">
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+                <h3 className="font-semibold text-lg text-neutral-900 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-neutral-500 text-sm">
                   {item.description}
                 </p>
               </div>
@@ -165,94 +208,93 @@ export default function ServicePage({ params }: Props) {
       </section>
 
       {/* Avantages */}
-      <section className="section bg-white">
+      <section className="section bg-neutral-900 text-white">
         <div className="container">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="section-title">{content.advantages.title}</h2>
-              <ul className="space-y-4 mt-8">
+              <span className="label text-neutral-500 mb-6">
+                <span className="label-number">03</span>
+                Avantages
+              </span>
+              <h2 className="text-white mb-8">{content.advantages.title}</h2>
+              <ul className="space-y-4">
                 {content.advantages.items.map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <span className="text-primary-600 text-xl">✓</span>
-                    <span className="text-gray-700">{item}</span>
+                    <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-neutral-300">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
             
-            <div className="bg-primary-50 rounded-2xl p-8">
-              <h3 className="font-bold text-xl text-gray-900 mb-4">
-                📞 Contactez-nous
+            <div className="bg-white/5 p-8">
+              <h3 className="font-semibold text-xl text-white mb-4">
+                Contactez-nous
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-neutral-400 mb-6">
                 Notre équipe est disponible 24h/24 et 7j/7 pour intervenir à {siteConfig.city} et dans tout {siteConfig.department}.
               </p>
-              <div className="bg-white rounded-xl p-4">
-                <a href={siteConfig.phoneLink} className="text-2xl font-bold text-primary-600 hover:text-primary-700">
-                  {siteConfig.phone}
-                </a>
-              </div>
+              <a href={siteConfig.phoneLink} className="btn-call">
+                {siteConfig.phone}
+              </a>
             </div>
           </div>
         </div>
       </section>
 
       {/* Zones d'intervention pour ce service */}
-      <section className="section bg-gray-50">
+      <section className="section bg-white">
         <div className="container">
-          <h2 className="section-title text-center mb-4">
-            {service.name} - Zones d&apos;intervention
-          </h2>
-          <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-            Nous intervenons pour {service.name.toLowerCase()} dans toutes ces zones de {siteConfig.department}.
-          </p>
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <span className="label justify-center mb-6">
+              <span className="w-8 h-px bg-neutral-900 mr-3" />
+              Zones
+              <span className="w-8 h-px bg-neutral-900 ml-3" />
+            </span>
+            <h2 className="mb-4">{service.name} - Zones d&apos;intervention</h2>
+            <p className="text-neutral-500">
+              Nous intervenons pour {service.name.toLowerCase()} dans toutes ces zones.
+            </p>
+          </div>
           
-          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {zones.map((zone) => (
-              <Link
-                key={zone.slug}
-                href={`/${service.slug}/${zone.slug}`}
-                className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-all hover:bg-primary-50 group"
-              >
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="font-semibold text-gray-900 group-hover:text-primary-600">
-                      {zone.name}
-                    </p>
-                    <p className="text-sm text-gray-500">{zone.postalCode}</p>
-                  </div>
-                  <span className="text-primary-600 opacity-0 group-hover:opacity-100 transition-opacity">
-                    →
-                  </span>
-                </div>
-              </Link>
-            ))}
+          <div className="border-t border-l border-neutral-200">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+              {zones.map((zone) => (
+                <Link
+                  key={zone.slug}
+                  href={`/${service.slug}/${zone.slug}`}
+                  className={`p-4 border-r border-b border-neutral-200 hover:bg-neutral-900 hover:text-white transition-colors text-center
+                    ${zone.isMain ? 'bg-neutral-900 text-white' : ''}`}
+                >
+                  <span className="block font-medium">{zone.name}</span>
+                  <span className="block text-xs mt-1 opacity-60">{zone.postalCode}</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
       {/* Autres services */}
-      <section className="section bg-white">
+      <section className="section bg-neutral-50">
         <div className="container">
-          <h2 className="section-title text-center mb-8">
-            Nos autres services
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="text-center mb-12">
+            <h2>Nos autres services</h2>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {otherServices.map((s) => (
               <Link
                 key={s.id}
                 href={`/${s.slug}`}
-                className="card hover:border-primary-200 transition-colors group"
+                className="group bg-white p-6 border border-neutral-200 hover:border-neutral-900 transition-colors"
               >
-                <div className="flex items-start gap-4">
-                  <span className="text-3xl">{s.icon}</span>
-                  <div>
-                    <h3 className="font-bold text-lg text-gray-900 group-hover:text-primary-600 mb-1">
-                      {s.name}
-                    </h3>
-                    <p className="text-gray-600 text-sm">{s.shortDesc}</p>
-                  </div>
-                </div>
+                <span className="block text-xs font-bold text-neutral-400 uppercase tracking-wider mb-2">Service</span>
+                <h3 className="font-semibold text-lg text-neutral-900 mb-2">
+                  {s.name}
+                </h3>
+                <p className="text-neutral-500 text-sm">{s.shortDesc}</p>
               </Link>
             ))}
           </div>
@@ -269,9 +311,7 @@ export default function ServicePage({ params }: Props) {
       <CTA
         title={content.cta.title}
         subtitle={content.cta.subtitle}
-        variant="dark"
       />
     </main>
   );
 }
-

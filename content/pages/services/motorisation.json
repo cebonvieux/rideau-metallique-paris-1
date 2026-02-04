@@ -47,6 +47,24 @@
       "Compatible avec la plupart des rideaux existants"
     ]
   },
+  "faq": [
+    {
+      "question": "Qui appeler pour motoriser un rideau métallique à {zone} ?",
+      "answer": "Pour la motorisation de votre rideau métallique à <strong>{zone} ({zonePostal})</strong>, contactez <strong>{name} au {phone}</strong>. Nos techniciens réalisent une étude de faisabilité gratuite et vous proposent le moteur adapté."
+    },
+    {
+      "question": "Peut-on motoriser un rideau manuel à {zone} ?",
+      "answer": "Dans <strong>90% des cas</strong>, il est possible de motoriser un rideau manuel existant. Notre technicien réalise une étude gratuite à {zone} pour vérifier la faisabilité et vous recommander le type de moteur adapté."
+    },
+    {
+      "question": "Comment obtenir un devis pour une motorisation à {zone} ?",
+      "answer": "Pour obtenir un <strong>devis gratuit</strong>, contactez-nous au <strong>{phone}</strong>. Notre technicien évalue votre installation à {zone} et vous recommande le type de moteur le plus adapté. Devis détaillé et sans engagement."
+    },
+    {
+      "question": "Quelle est la durée d'installation d'une motorisation ?",
+      "answer": "L'installation d'une motorisation prend généralement <strong>2 à 4 heures</strong> selon la configuration. Votre commerce à {zone} peut rester ouvert pendant l'intervention."
+    }
+  ],
   "cta": {
     "title": "Motorisation à {zone} ?",
     "subtitle": "Demandez une étude gratuite pour motoriser votre rideau."
