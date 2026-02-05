@@ -260,7 +260,7 @@ export default function InstallationPage() {
             
             <div className="mt-12 text-center">
               <p className="text-neutral-600 max-w-2xl mx-auto">
-                Après l'installation de votre nouveau rideau métallique, nous vous recommandons de souscrire à un <Link href="/entretien-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">contrat d'entretien préventif</Link> pour garantir son bon fonctionnement dans le temps et éviter tout <Link href="/" className="text-primary font-medium hover:underline">dépannage d'urgence</Link>. Si vous souhaitez automatiser votre rideau, découvrez notre service de <Link href="/motorisation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">motorisation</Link>.
+                Après l&apos;installation de votre nouveau rideau métallique, nous vous recommandons de souscrire à un <Link href="/entretien-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">contrat d&apos;entretien préventif</Link> pour garantir son bon fonctionnement dans le temps et éviter tout <Link href="/" className="text-primary font-medium hover:underline">dépannage d&apos;urgence</Link>. Si vous souhaitez automatiser votre rideau, découvrez notre service de <Link href="/motorisation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">motorisation</Link>.
               </p>
             </div>
           </div>

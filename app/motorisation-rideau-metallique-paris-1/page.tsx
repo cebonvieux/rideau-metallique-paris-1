@@ -284,7 +284,7 @@ export default function MotorisationPage() {
             
             <div className="mt-12 text-center">
               <p className="text-neutral-600 max-w-2xl mx-auto">
-                La motorisation de votre rideau métallique est un investissement rentable sur le long terme. Pour préserver la durée de vie de votre moteur, pensez à souscrire à un <Link href="/entretien-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">contrat d'entretien annuel</Link>. En cas de panne urgente, notre service de <Link href="/" className="text-primary font-medium hover:underline">dépannage 24h/24</Link> est à votre disposition. Si vous souhaitez remplacer complètement votre rideau, consultez notre service d'<Link href="/installation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">installation de rideaux neufs</Link>.
+                La motorisation de votre rideau métallique est un investissement rentable sur le long terme. Pour préserver la durée de vie de votre moteur, pensez à souscrire à un <Link href="/entretien-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">contrat d&apos;entretien annuel</Link>. En cas de panne urgente, notre service de <Link href="/" className="text-primary font-medium hover:underline">dépannage 24h/24</Link> est à votre disposition. Si vous souhaitez remplacer complètement votre rideau, consultez notre service d&apos;<Link href="/installation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">installation de rideaux neufs</Link>.
               </p>
             </div>
           </div>

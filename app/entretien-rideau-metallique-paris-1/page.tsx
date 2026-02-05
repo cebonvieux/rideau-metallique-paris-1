@@ -207,7 +207,7 @@ export default function EntretienPage() {
             
             <div className="mt-12 text-center">
               <p className="text-neutral-600 max-w-2xl mx-auto">
-                Un contrat d'entretien régulier permet de prévenir les pannes et de prolonger la durée de vie de votre rideau métallique. En cas de <Link href="/" className="text-primary font-medium hover:underline">panne urgente</Link>, notre équipe intervient 24h/24 pour un dépannage rapide. Si votre rideau est ancien, nous pouvons également vous proposer une <Link href="/installation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">installation de rideau neuf</Link> ou une <Link href="/motorisation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">motorisation</Link> pour plus de confort.
+                Un contrat d&apos;entretien régulier permet de prévenir les pannes et de prolonger la durée de vie de votre rideau métallique. En cas de <Link href="/" className="text-primary font-medium hover:underline">panne urgente</Link>, notre équipe intervient 24h/24 pour un dépannage rapide. Si votre rideau est ancien, nous pouvons également vous proposer une <Link href="/installation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">installation de rideau neuf</Link> ou une <Link href="/motorisation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">motorisation</Link> pour plus de confort.
               </p>
             </div>
           </div>

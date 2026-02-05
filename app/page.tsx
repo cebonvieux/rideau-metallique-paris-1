@@ -207,7 +207,7 @@ export default function HomePage() {
             <div className="text-center max-w-2xl mx-auto mb-16">
               <span className="label justify-center mb-6">
                 <span className="w-8 h-px bg-neutral-900 mr-3" />
-                Secteurs d'activité
+                Secteurs d&apos;activité
                 <span className="w-8 h-px bg-neutral-900 ml-3" />
               </span>
               <h2 className="mb-4">{content.secteursActivite.title}</h2>
@@ -241,13 +241,13 @@ export default function HomePage() {
               </div>
               <div className="space-y-6 text-neutral-600 text-lg leading-relaxed">
                 <p>
-                  Depuis plus de 25 ans, DRM Paris 1 intervient quotidiennement à Paris 1er (75001) et dans tout Paris. Notre connaissance du terrain nous permet d'arriver rapidement chez vous, même dans les zones difficiles d'accès comme les rues piétonnes des Halles, les passages couverts du Palais-Royal ou les artères commerçantes de la rue de Rivoli. Nous proposons également des services d'<Link href="/installation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">installation de rideaux métalliques neufs</Link> pour les commerces en rénovation.
+                  Depuis plus de 25 ans, DRM Paris 1 intervient quotidiennement à Paris 1er (75001) et dans tout Paris. Notre connaissance du terrain nous permet d&apos;arriver rapidement chez vous, même dans les zones difficiles d&apos;accès comme les rues piétonnes des Halles, les passages couverts du Palais-Royal ou les artères commerçantes de la rue de Rivoli. Nous proposons également des services d&apos;<Link href="/installation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">installation de rideaux métalliques neufs</Link> pour les commerces en rénovation.
                 </p>
                 <p>
-                  Notre équipe de techniciens qualifiés maîtrise toutes les marques de rideaux métalliques et de motorisations : Somfy, Nice, Came, Hörmann, Bubendorff, Simu. Nous utilisons exclusivement des pièces d'origine constructeur pour garantir la durabilité de nos interventions et la sécurité de vos installations. Chaque technicien dispose d'un véhicule équipé avec un stock complet de pièces détachées pour intervenir efficacement. Pour moderniser votre équipement, découvrez notre service de <Link href="/motorisation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">motorisation de rideaux métalliques</Link>.
+                  Notre équipe de techniciens qualifiés maîtrise toutes les marques de rideaux métalliques et de motorisations : Somfy, Nice, Came, Hörmann, Bubendorff, Simu. Nous utilisons exclusivement des pièces d&apos;origine constructeur pour garantir la durabilité de nos interventions et la sécurité de vos installations. Chaque technicien dispose d&apos;un véhicule équipé avec un stock complet de pièces détachées pour intervenir efficacement. Pour moderniser votre équipement, découvrez notre service de <Link href="/motorisation-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">motorisation de rideaux métalliques</Link>.
                 </p>
                 <p>
-                  Avec plus de 5000 interventions par an et une note de 4.9/5 sur 127 avis Google, nous sommes la référence du dépannage de grilles métalliques à Paris 1er. Nous intervenons pour tous types de clients : commerçants des Halles, restaurateurs de Châtelet, bijoutiers de la Place Vendôme, boutiques du Louvre et établissements publics. Notre réactivité et notre expertise technique font notre réputation dans tout l'arrondissement. Nous recommandons également de souscrire à un <Link href="/entretien-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">contrat d'entretien préventif</Link> pour éviter les pannes inopinées.
+                  Avec plus de 5000 interventions par an et une note de 4.9/5 sur 127 avis Google, nous sommes la référence du dépannage de grilles métalliques à Paris 1er. Nous intervenons pour tous types de clients : commerçants des Halles, restaurateurs de Châtelet, bijoutiers de la Place Vendôme, boutiques du Louvre et établissements publics. Notre réactivité et notre expertise technique font notre réputation dans tout l&apos;arrondissement. Nous recommandons également de souscrire à un <Link href="/entretien-rideau-metallique-paris-1" className="text-primary font-medium hover:underline">contrat d&apos;entretien préventif</Link> pour éviter les pannes inopinées.
                 </p>
               </div>
             </div>
