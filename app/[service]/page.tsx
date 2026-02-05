@@ -8,6 +8,24 @@ import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
 import faqData from "@/content/faq.json";
 
+// Types pour le contenu
+interface ServiceItem {
+  title: string;
+  description: string;
+  icon?: string;
+}
+
+interface Zone {
+  slug: string;
+  name: string;
+}
+
+interface Service {
+  id: string;
+  name: string;
+  slug: string;
+}
+
 // Map des images par service (par id de service)
 const serviceImages: Record<string, string> = {
   "depannage": "/images/gallery/depannage-rideau-metallique-paris-1-drm.webp",
@@ -285,7 +303,7 @@ export default function ServicePage({ params }: Props) {
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-neutral-200">
-              {content.situations.items.map((item, index) => (
+              {content.situations.items.map((item: ServiceItem, index: number) => (
                 <div key={index} className="bg-white p-8 hover:bg-neutral-50 transition-colors">
                   <span className="block text-4xl font-black text-neutral-100 mb-4">
                     {String(index + 1).padStart(2, '0')}
@@ -313,7 +331,7 @@ export default function ServicePage({ params }: Props) {
                 </span>
                 <h2 className="text-white mb-8">{content.advantages.title}</h2>
                 <ul className="space-y-4">
-                  {content.advantages.items.map((item, index) => (
+                  {content.advantages.items.map((item: ServiceItem, index: number) => (
                     <li key={index} className="flex items-start gap-3">
                       <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -356,7 +374,7 @@ export default function ServicePage({ params }: Props) {
             
             <div className="border-t border-l border-neutral-200">
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-                {zones.map((zone) => (
+                {zones.map((zone: Zone) => (
                   <Link
                     key={zone.slug}
                     href={zone.isMain ? `/${service.slug}` : getSubcityUrl(service.baseSlug, zone.slug)}
@@ -379,7 +397,7 @@ export default function ServicePage({ params }: Props) {
               <h2>Nos autres services</h2>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {otherServices.map((s) => (
+              {otherServices.map((s: Service) => (
                 <Link
                   key={s.id}
                   href={`/${s.slug}`}
@@ -451,7 +469,7 @@ export default function ServicePage({ params }: Props) {
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: zoneFaq.map((item) => ({
+    mainEntity: zoneFaq.map((item: any) => ({
       "@type": "Question",
       name: item.question,
       acceptedAnswer: { "@type": "Answer", text: item.answer.replace(/<[^>]*>/g, "") },
@@ -539,7 +557,7 @@ export default function ServicePage({ params }: Props) {
             </span>
             <h2 className="mb-8">{content.intro.title}</h2>
             <div className="space-y-4 text-neutral-600 text-lg leading-relaxed">
-              {content.intro.paragraphs.map((p, i) => (
+              {content.intro.paragraphs.map((p: string, i: number) => (
                 <p key={i}>{p}</p>
               ))}
             </div>
@@ -637,7 +655,7 @@ export default function ServicePage({ params }: Props) {
             <h2>{serviceLabel} dans les zones voisines</h2>
           </div>
           <div className="flex flex-wrap justify-center gap-3">
-            {otherZones.map((z) => (
+            {otherZones.map((z: Zone) => (
               <Link
                 key={z.slug}
                 href={getSubcityUrl(service.baseSlug, z.slug)}
