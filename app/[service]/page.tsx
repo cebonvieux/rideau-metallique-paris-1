@@ -265,7 +265,7 @@ export default function ServicePage({ params }: Props) {
               </span>
               <h2 className="mb-8">{content.intro.title}</h2>
               <div className="space-y-4 text-neutral-600 text-lg leading-relaxed">
-                {content.intro.paragraphs.map((p, i) => (
+                {content.intro.paragraphs.map((p: string, i: number) => (
                   <p key={i}>{p}</p>
                 ))}
               </div>
