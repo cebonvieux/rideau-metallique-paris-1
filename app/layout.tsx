@@ -67,6 +67,11 @@ export const metadata: Metadata = {
   verification: {
     google: "", // À remplir avec le code de vérification Google Search Console
   },
+  icons: {
+    icon: "/images/logos/depannage-rideau-metallique-paris-1.webp",
+    shortcut: "/images/logos/depannage-rideau-metallique-paris-1.webp",
+    apple: "/images/logos/depannage-rideau-metallique-paris-1.webp",
+  },
 };
 
 // Schema.org LocalBusiness

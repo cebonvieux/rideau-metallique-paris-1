@@ -3,8 +3,8 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = { 
-  title: `Mentions Légales - ${siteConfig.name}`,
-  description: `Mentions légales du site ${siteConfig.name}. Informations sur l'éditeur, l'hébergement et la propriété intellectuelle.`
+  title: `Mentions Légales - Rideau Métallique Paris 1er`,
+  description: `Mentions légales. Informations sur l'éditeur, l'hébergement et la propriété intellectuelle.`
 };
 
 export default function MentionsLegalesPage() {

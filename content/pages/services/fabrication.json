@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "badge": "🏭 Fabrication française",
+    "title": "Fabrication Rideau Métallique {zone}",
+    "subtitle": "Rideaux métalliques sur mesure fabriqués dans nos ateliers. Fabrication française de qualité pour commerces et professionnels à {zone} ({zonePostal})."
+  },
+  "intro": {
+    "title": "Rideau Métallique Sur-Mesure à {zone} : L'Excellence Artisanale",
+    "paragraphs": [
+      "Spécialiste de la fabrication de rideaux métalliques sur mesure à {zone} ({zonePostal}), {name} conçoit et fabrique des fermetures métalliques de haute qualité dans ses ateliers. Chaque rideau est fabriqué selon vos dimensions exactes et vos besoins spécifiques pour votre commerce ou local professionnel.",
+      "Avec plus de 25 ans d'expérience dans la fabrication de rideaux métalliques, nous maîtrisons toutes les techniques de production : lames pleines pour sécurité maximale, micro-perforées pour visibilité, grilles articulées, rideaux coupe-feu certifiés et solutions grande dimension. Notre atelier garantit des délais courts et une qualité irréprochable.",
+      "De la prise de mesures à l'installation finale à {zone}, nous vous accompagnons à chaque étape. Nos artisans utilisent exclusivement des matériaux de première qualité : acier galvanisé, aluminium ou inoxydable. Chaque rideau fabriqué respecte les normes CE et bénéficie d'une garantie constructeur. Fabrication 100% française pour une durabilité exceptionnelle."
+    ]
+  },
+  "situations": {
+    "title": "Types de rideaux fabriqués à {zone}",
+    "items": [
+      {
+        "icon": "🛡️",
+        "title": "Rideau à lames pleines",
+        "description": "Sécurité maximale et occultation totale. Isolation thermique et phonique optimale pour commerces nécessitant protection renforcée."
+      },
+      {
+        "icon": "👁️",
+        "title": "Rideau micro-perforé",
+        "description": "Visibilité partielle de la vitrine tout en assurant la sécurité. Ventilation naturelle. Parfait pour boutiques avec vitrines attractives."
+      },
+      {
+        "icon": "📐",
+        "title": "Grille métallique articulée",
+        "description": "Transparence maximale tout en protégeant efficacement. Installation flexible et esthétique. Idéal pour centres commerciaux et galeries."
+      },
+      {
+        "icon": "🔥",
+        "title": "Rideau coupe-feu certifié",
+        "description": "Conformité ERP et normes sécurité incendie. Protection passive contre les flammes et fumées. Obligatoire pour certains établissements."
+      },
+      {
+        "icon": "🏭",
+        "title": "Rideau industriel grande dimension",
+        "description": "Solutions robustes pour entrepôts, ateliers et hangars. Motorisation renforcée. Résistance aux conditions industrielles intensives."
+      },
+      {
+        "icon": "🎨",
+        "title": "Rideau sur mesure design",
+        "description": "Personnalisation complète : couleurs RAL, motifs, logos. Harmonie avec l'identité de votre commerce. Esthétique et sécurité combinées."
+      },
+      {
+        "icon": "🚪",
+        "title": "Rideau avec porte intégrée",
+        "description": "Accès piéton pratique sans ouvrir tout le rideau. Gain de temps et économie d'énergie. Solution adaptée aux commerces à forte fréquentation."
+      },
+      {
+        "icon": "⚙️",
+        "title": "Motorisation intégrée",
+        "description": "Fabrication incluant le système de motorisation. Moteur tubulaire ou axe central selon dimensions. Commande radio ou filaire au choix."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Pourquoi choisir notre fabrication à {zone} ?",
+    "items": [
+      "Fabrication 100% française dans nos ateliers",
+      "Sur-mesure parfaitement adapté à vos dimensions",
+      "Matériaux de première qualité (acier, aluminium, inox)",
+      "Normes CE et certifications ERP respectées",
+      "Garantie constructeur de 2 à 10 ans selon modèle",
+      "Délais de fabrication courts (2 à 4 semaines)",
+      "Installation professionnelle incluse à {zone}",
+      "Service après-vente et entretien disponibles",
+      "Devis gratuit et conseils personnalisés",
+      "Finitions au choix : thermolaquage, galvanisation"
+    ]
+  },
+  "cta": {
+    "title": "Projet de fabrication à {zone} ?",
+    "subtitle": "Contactez-nous pour un devis gratuit et personnalisé. Nos experts vous conseillent sur le rideau métallique adapté à vos besoins."
+  }
+}

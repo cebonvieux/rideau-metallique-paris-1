@@ -38,7 +38,7 @@ H1: Contact DRM [VILLE] - Devis Gratuit Rideau Métallique
     │   (Coordonnées : téléphone, email, adresse)
     │
     ├── H2: Pourquoi Faire Confiance à DRM [VILLE]
-    │   ├── H3: 15+ ans d'expérience
+    │   ├── H3: 25+ ans d'expérience
     │   ├── H3: 5000+ interventions
     │   ├── H3: Équipe locale qualifiée
     │   └── H3: Devis honorés à 100%
@@ -108,7 +108,7 @@ H1: Contact DRM [VILLE] - Devis Gratuit Rideau Métallique
 
 **4 piliers** :
 
-1. **15+ ans d'expérience**
+1. **25+ ans d'expérience**
    - Entreprise établie depuis 2008
    - Expertise reconnue dans le [DEPARTEMENT]
    - Connaissance du tissu local

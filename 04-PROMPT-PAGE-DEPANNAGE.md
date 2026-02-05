@@ -144,7 +144,7 @@ Badge: "Technicien proche de [ZONE]"
 - 4 avantages :
   1. **Proximité** - Technicien proche de [ZONE], intervention rapide
   2. **Disponibilité** - 24h/24, 7j/7, même les jours fériés
-  3. **Expertise** - 15+ ans d'expérience dans le [DEPARTEMENT]
+  3. **Expertise** - 25+ ans d'expérience dans le [DEPARTEMENT]
   4. **Garantie** - Pièces et main d'œuvre garanties
 
 **Design** :

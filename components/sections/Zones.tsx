@@ -1,14 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { siteConfig } from "@/config/site";
+import { siteConfig, services } from "@/config/site";
 import { zones, Zone } from "@/config/zones";
+import { getSubcityUrl } from "@/lib/content";
 
 interface ZonesProps {
   title?: string;
   subtitle?: string;
   limit?: number;
-  serviceSlug?: string;
+  /** baseSlug du service (ex: "depannage-rideau-metallique"). Par défaut: dépannage */
+  serviceBaseSlug?: string;
+  /** URL de la page principale du service (pour la zone principale) */
+  mainServiceUrl?: string;
   showCategories?: boolean;
 }
 
@@ -16,13 +20,19 @@ export function Zones({
   title = "Zones d'intervention", 
   subtitle,
   limit = 18,
-  serviceSlug,
+  serviceBaseSlug = "depannage-rideau-metallique",
+  mainServiceUrl = "/",
   showCategories = false
 }: ZonesProps) {
   const displayedZones = zones.slice(0, limit);
 
   const getZoneUrl = (zone: Zone) => {
-    return serviceSlug ? `/${serviceSlug}/${zone.slug}` : `/zones/${zone.slug}`;
+    // Pour la zone principale (paris-1), on renvoie vers la page service principale
+    if (zone.isMain) {
+      return mainServiceUrl;
+    }
+    // Pour les autres zones, on génère l'URL subcity
+    return getSubcityUrl(serviceBaseSlug, zone.slug);
   };
 
   return (

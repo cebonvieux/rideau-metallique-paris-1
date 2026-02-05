@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { siteConfig, zones } from "@/config/site";
 import { CTA } from "@/components/sections/CTA";
+import { getSubcityUrl } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: `Zones d'intervention - ${siteConfig.name}`,
-  description: `Dépannage rideau métallique à ${siteConfig.city} et environs. Intervention rapide 24h/24. ${siteConfig.phone}`,
+  title: `Zones d'intervention Paris 1er - Toutes zones`,
+  description: `Zones d'intervention à ${siteConfig.city} et Paris. Dépannage rideau métallique 24h/24. ☎️ ${siteConfig.phone}`,
 };
 
 export default function ZonesPage() {
@@ -68,7 +69,7 @@ export default function ZonesPage() {
               {otherZones.map((zone) => (
                 <Link 
                   key={zone.slug} 
-                  href={`/zones/${zone.slug}`} 
+                  href={getSubcityUrl("depannage-rideau-metallique", zone.slug)} 
                   className="p-5 border-r border-b border-neutral-200 hover:bg-neutral-900 hover:text-white transition-colors text-center group"
                 >
                   <span className="block font-medium text-neutral-900 group-hover:text-white transition-colors">

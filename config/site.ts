@@ -65,7 +65,7 @@ export const siteConfig = {
   // STATISTIQUES / DONNÉES DE CONFIANCE
   // ─────────────────────────────────────────────────────────────────────────
   stats: {
-    experience: "15+",           // années d'expérience
+    experience: "25+",           // années d'expérience
     interventions: "5000+",      // nombre d'interventions
     delaiIntervention: "30 min", // délai moyen d'intervention
   },
@@ -103,19 +103,22 @@ export { zones, quartiers, arrondissementsLimitrophes, communesProches, allZones
 // ─────────────────────────────────────────────────────────────────────────
 export const navigation = [
   { label: "Accueil", href: "/" },
-  { label: "Installation", href: "/installation" },
-  { label: "Motorisation", href: "/motorisation" },
-  { label: "Entretien", href: "/entretien" },
+  { label: "Fabrication", href: "/fabrication-rideau-metallique-paris-1" },
+  { label: "Installation", href: "/installation-rideau-metallique-paris-1" },
+  { label: "Motorisation", href: "/motorisation-rideau-metallique-paris-1" },
+  { label: "Entretien", href: "/entretien-rideau-metallique-paris-1" },
   { label: "Contact", href: "/contact" },
 ] as const;
 
 // ─────────────────────────────────────────────────────────────────────────
 // SERVICES - Chaque service a sa propre page + pages localisées
+// baseSlug = slug générique sans la ville (pour générer les URLs subcity)
 // ─────────────────────────────────────────────────────────────────────────
 export const services = [
   {
     id: "depannage",
     slug: "depannage",
+    baseSlug: "depannage-rideau-metallique",
     name: "Dépannage Urgence",
     shortDesc: "Intervention rapide 24h/24",
     longDesc: "Service de dépannage rideau métallique en urgence, disponible 24h/24 et 7j/7.",
@@ -123,8 +126,19 @@ export const services = [
     hasPage: false, // Géré par la page d'accueil
   },
   {
+    id: "fabrication",
+    slug: "fabrication-rideau-metallique-paris-1",
+    baseSlug: "fabrication-rideau-metallique",
+    name: "Fabrication",
+    shortDesc: "Rideaux sur mesure",
+    longDesc: "Fabrication de rideaux métalliques sur mesure dans nos ateliers français.",
+    icon: "🏭",
+    hasPage: true,
+  },
+  {
     id: "installation",
-    slug: "installation",
+    slug: "installation-rideau-metallique-paris-1",
+    baseSlug: "installation-rideau-metallique",
     name: "Installation",
     shortDesc: "Pose de rideaux métalliques",
     longDesc: "Installation complète de rideaux métalliques pour commerces et locaux professionnels.",
@@ -133,7 +147,8 @@ export const services = [
   },
   {
     id: "motorisation",
-    slug: "motorisation",
+    slug: "motorisation-rideau-metallique-paris-1",
+    baseSlug: "motorisation-rideau-metallique",
     name: "Motorisation",
     shortDesc: "Automatisation de votre rideau",
     longDesc: "Motorisation et automatisation de rideaux métalliques existants ou neufs.",
@@ -142,7 +157,8 @@ export const services = [
   },
   {
     id: "entretien",
-    slug: "entretien",
+    slug: "entretien-rideau-metallique-paris-1",
+    baseSlug: "entretien-rideau-metallique",
     name: "Entretien",
     shortDesc: "Maintenance préventive",
     longDesc: "Contrats d'entretien et maintenance préventive pour rideaux métalliques.",
@@ -152,6 +168,7 @@ export const services = [
   {
     id: "reparation",
     slug: "reparation",
+    baseSlug: "reparation-rideau-metallique",
     name: "Réparation",
     shortDesc: "Remise en état complète",
     longDesc: "Réparation et remise en état de rideaux métalliques endommagés ou usés.",
@@ -160,7 +177,8 @@ export const services = [
   },
   {
     id: "deblocage",
-    slug: "deblocage",
+    slug: "deblocage-rideau-metallique-paris-1",
+    baseSlug: "deblocage-rideau-metallique",
     name: "Déblocage",
     shortDesc: "Rideau bloqué ou coincé",
     longDesc: "Déblocage en urgence de rideaux métalliques bloqués, coincés ou hors service.",

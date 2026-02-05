@@ -1,44 +1,36 @@
 {
   "global": [
     {
-      "question": "Qui appeler pour un dépannage de rideau métallique à {zone} ?",
-      "answer": "Pour un dépannage de rideau métallique à <strong>{zone} ({zonePostal})</strong>, appelez <strong>{name} au {phone}</strong>. Notre équipe intervient en urgence 24h/24 et 7j/7. Nous sommes spécialisés dans le dépannage de rideaux métalliques pour les commerces de {zone} et ses environs."
+      "question": "Qui appeler pour un dépannage de rideau métallique à {city} ?",
+      "answer": "Pour un dépannage de rideau métallique à <strong>{city} ({postalCode})</strong>, appelez <strong>{name} au {phone}</strong>. Notre équipe intervient en urgence 24h/24 et 7j/7 dans tous les quartiers de {city} et dans tout {department}. Nous sommes spécialisés dans le dépannage de rideaux métalliques et grilles métalliques pour les commerces."
     },
     {
-      "question": "Quel est le délai d'intervention pour un dépannage à {zone} ?",
-      "answer": "Nos techniciens interviennent en <strong>30 minutes maximum</strong> à {zone} et dans tout {department} pour les urgences. Nous sommes disponibles 24h/24 et 7j/7, y compris les jours fériés."
+      "question": "Quel est le délai d'intervention à {city} ?",
+      "answer": "Nos techniciens interviennent en <strong>30 minutes maximum</strong> à {city} et dans tout {department} pour les urgences. Nous sommes disponibles 24h/24 et 7j/7, y compris les jours fériés et week-ends."
     },
     {
-      "question": "Mon rideau métallique est bloqué à {zone}, que faire ?",
-      "answer": "N'essayez pas de forcer le mécanisme, vous risqueriez d'aggraver la panne. Appelez-nous immédiatement au <strong>{phone}</strong>. Nos techniciens diagnostiqueront le problème et le résoudront rapidement. Nous intervenons pour tous types de blocages : rideau coincé en position haute, basse ou à mi-course."
+      "question": "Quels services proposez-vous pour les rideaux métalliques à {city} ?",
+      "answer": "{name} propose une gamme complète de services : <strong>dépannage d'urgence</strong> 24h/24, installation de rideaux neufs, motorisation de rideaux manuels, contrats d'entretien préventif, et réparation de tous les composants (moteur, lames, axe, serrure). Nous intervenons sur tous types de fermetures métalliques."
     },
     {
-      "question": "Comment obtenir un devis pour un dépannage ?",
-      "answer": "Nous vous communiquons un <strong>devis gratuit et détaillé</strong> avant toute intervention. Appelez-nous au <strong>{phone}</strong> pour décrire votre panne, nous vous donnerons une estimation et interviendrons rapidement."
+      "question": "Comment obtenir un devis pour mon rideau métallique à {city} ?",
+      "answer": "Contactez-nous au <strong>{phone}</strong> pour obtenir un <strong>devis gratuit et personnalisé</strong>. Notre technicien évalue votre situation par téléphone ou sur place à {city}. Nous vous remettons un devis détaillé avant toute intervention. Aucune surprise, engagement transparent."
     },
     {
-      "question": "Intervenez-vous sur toutes les marques de rideaux métalliques ?",
-      "answer": "Oui, nos techniciens sont formés sur <strong>toutes les marques</strong> de rideaux métalliques et de motorisations : Somfy, Nice, Came, Hörmann, Bubendorff, Simu, Profalux, France Fermetures et bien d'autres."
+      "question": "Intervenez-vous sur toutes les marques de rideaux ?",
+      "answer": "Oui, nos techniciens sont formés sur <strong>toutes les marques</strong> de rideaux métalliques, stores et grilles : Somfy, Nice, Came, Hörmann, Bubendorff, Simu, Profalux, France Fermetures. Nous utilisons exclusivement des pièces d'origine constructeur pour garantir la qualité et la durabilité."
     },
     {
-      "question": "Proposez-vous des contrats d'entretien à {zone} ?",
-      "answer": "Oui, nous proposons des <strong>contrats de maintenance préventive</strong> pour prolonger la durée de vie de votre rideau et éviter les pannes. Plusieurs formules sont disponibles selon vos besoins. Chaque visite comprend le graissage, les réglages et le contrôle de sécurité. Contactez-nous pour un devis personnalisé."
+      "question": "Travaillez-vous les week-ends et jours fériés ?",
+      "answer": "Oui, nous sommes disponibles <strong>7 jours sur 7</strong>, y compris les week-ends et jours fériés. Notre équipe d'astreinte est joignable 24h/24 au {phone} pour toute urgence à {city} et dans tout {department}."
     },
     {
-      "question": "Quelle est la durée de vie d'un rideau métallique ?",
-      "answer": "Un rideau métallique bien entretenu a une durée de vie de <strong>15 à 25 ans</strong>. La motorisation doit généralement être remplacée tous les 10-15 ans selon l'utilisation. Un entretien régulier peut doubler la durée de vie de votre équipement."
-    },
-    {
-      "question": "Pouvez-vous motoriser mon rideau manuel à {zone} ?",
-      "answer": "Oui, dans la plupart des cas il est possible de <strong>motoriser un rideau manuel existant</strong>. Nous réalisons une étude de faisabilité gratuite et vous proposons la solution la plus adaptée : moteur tubulaire, central ou latéral. Contactez-nous pour un devis gratuit."
-    },
-    {
-      "question": "Vos interventions sont-elles garanties ?",
-      "answer": "Oui, toutes nos interventions sont <strong>garanties 1 an</strong> (pièces et main d'œuvre). Les rideaux neufs bénéficient d'une garantie constructeur de 2 à 5 ans selon les modèles. Nous utilisons exclusivement des pièces d'origine constructeur."
+      "question": "Quelle garantie sur vos interventions à {city} ?",
+      "answer": "Toutes nos interventions sont <strong>garanties 1 an</strong> (pièces et main d'œuvre). Les rideaux neufs bénéficient d'une garantie constructeur de 2 à 5 ans selon les modèles. Nous utilisons exclusivement des pièces d'origine constructeur pour tous nos dépannages et réparations."
     },
     {
       "question": "Quelles zones couvrez-vous autour de {city} ?",
-      "answer": "Nous intervenons dans tout le <strong>1er arrondissement</strong> (Les Halles, Louvre, Palais-Royal, Place Vendôme, Châtelet) ainsi que dans les arrondissements limitrophes : 2ème, 3ème, 4ème, 5ème, 6ème, 7ème, 8ème, 9ème et 10ème. Nous couvrons également les communes proches : Boulogne-Billancourt, Neuilly-sur-Seine, Levallois-Perret, Clichy, Saint-Denis, Vincennes et Montreuil."
+      "answer": "Nous intervenons dans tout le <strong>1er arrondissement</strong> (Les Halles, Louvre, Palais-Royal, Place Vendôme, Châtelet) ainsi que dans les arrondissements limitrophes : 2ème, 3ème, 4ème, 5ème, 6ème, 7ème, 8ème, 9ème et 10ème. Nous couvrons également les communes proches de Paris."
     }
   ],
   "depannage": [

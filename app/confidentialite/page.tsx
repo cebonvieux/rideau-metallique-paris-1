@@ -3,8 +3,8 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = { 
-  title: `Politique de Confidentialité - ${siteConfig.name}`,
-  description: `Politique de confidentialité du site ${siteConfig.name}. Informations sur la collecte et l'utilisation de vos données personnelles.`
+  title: `Politique de Confidentialité - RGPD`,
+  description: `Politique de confidentialité et protection des données personnelles (RGPD). Vos droits et nos engagements.`
 };
 
 export default function ConfidentialitePage() {

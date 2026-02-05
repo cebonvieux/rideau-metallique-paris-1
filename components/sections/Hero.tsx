@@ -55,7 +55,7 @@ export function Hero({
             <h1 className="mb-8">
               <span className="block">Dépannage</span>
               <span className="block text-outline">Rideau</span>
-              <span className="block">Métallique</span>
+              <span className="block">Métallique Paris 1</span>
             </h1>
 
             {/* Sous-titre */}

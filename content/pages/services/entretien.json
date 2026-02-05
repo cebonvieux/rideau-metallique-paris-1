@@ -1,14 +1,15 @@
 {
   "hero": {
     "badge": "🛠️ Maintenance préventive",
-    "title": "Entretien Rideau Métallique {zone}",
+    "title": "Entretien Rideau Métallique Paris 1",
     "subtitle": "Contrats d'entretien et maintenance préventive pour rideaux métalliques à {zone}. Évitez les pannes et prolongez la durée de vie de vos équipements."
   },
   "intro": {
     "title": "Entretien rideau métallique à {zone}",
     "paragraphs": [
-      "Un rideau métallique bien entretenu, c'est un rideau qui dure plus longtemps et qui tombe moins souvent en panne. {name} propose des contrats d'entretien adaptés à vos besoins à {zone}.",
-      "Nos techniciens interviennent régulièrement pour vérifier, lubrifier et ajuster votre rideau. Nous anticipons les problèmes avant qu'ils ne deviennent des urgences."
+      "Professionnel de la maintenance préventive de fermetures métalliques à {zone} ({zonePostal}), {name} propose des contrats d'entretien adaptés à votre activité et à la fréquence d'utilisation de votre rideau. Un entretien régulier permet de réduire de 80% les pannes et d'éviter les dépannages coûteux en urgence. Nos techniciens connaissent parfaitement les spécificités des commerces de {zone} et adaptent leurs interventions selon votre type d'activité.",
+      "Chaque visite d'entretien comprend une inspection complète de votre store métallique : vérification des lames, graissage des axes et glissières, contrôle de la motorisation, test du système de verrouillage. Nous ajustons les fins de course, vérifions la tension des ressorts et nous assurons que votre grille métallique fonctionne de manière optimale à {zone}. Un rapport détaillé vous est remis après chaque passage avec nos préconisations pour prolonger la durée de vie de votre équipement.",
+      "Pour les commerces de {zone} ({zonePostal}) avec forte utilisation quotidienne, nous recommandons un contrat avec 2 à 4 visites annuelles. Les adhérents à nos contrats d'entretien bénéficient d'une intervention prioritaire en cas de panne, de tarifs préférentiels sur les pièces détachées et d'une garantie étendue sur les réparations. Notre objectif : vous assurer une tranquillité complète et éviter toute immobilisation de votre commerce."
     ]
   },
   "situations": {

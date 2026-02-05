@@ -1,14 +1,15 @@
 {
   "hero": {
     "badge": "🚨 Urgence 24h/24",
-    "title": "Dépannage Rideau Métallique {zone}",
+    "title": "Dépannage Rideau Métallique Paris 1",
     "subtitle": "Intervention en 30 minutes à {zone}. Rideau bloqué, moteur en panne, lames abîmées ? Notre équipe de techniciens spécialisés intervient 24h/24 et 7j/7."
   },
   "intro": {
     "title": "Dépannage rideau métallique à {zone}",
     "paragraphs": [
-      "Votre rideau métallique est bloqué à {zone} ? {name} est votre spécialiste du dépannage en urgence. Nous intervenons rapidement pour débloquer, réparer ou remettre en service votre rideau métallique.",
-      "Notre équipe de techniciens qualifiés connaît parfaitement {zone} ({zonePostal}) et intervient avec tout l'équipement nécessaire : pièces détachées, outillage professionnel, véhicules équipés."
+      "Expert en dépannage de grilles métalliques à {zone} ({zonePostal}), {name} intervient 24h/24 pour tous vos besoins urgents : rideau bloqué, moteur défaillant, lames endommagées, serrure cassée. Notre équipe de techniciens qualifiés connaît parfaitement les commerces et spécificités de {zone}, ce qui nous permet d'optimiser nos temps d'intervention même en période de forte affluence.",
+      "Que votre store métallique soit coincé en position haute, basse ou à mi-course, nous disposons de l'expertise et de l'équipement nécessaire pour un déblocage rapide et sécurisé à {zone}. Nos véhicules d'intervention sont équipés d'un stock complet de pièces détachées pour toutes marques : Somfy, Nice, Came, Hörmann. Cela nous permet de réaliser la réparation sur place dans 90% des cas, sans délai d'attente pour commande de pièces.",
+      "Notre connaissance du terrain à {zone} ({zonePostal}) nous permet d'intervenir rapidement même dans les zones difficiles d'accès. Nous travaillons en toute discrétion pour ne pas perturber l'activité de votre commerce et garantissons une remise en service immédiate de votre fermeture métallique. Chaque dépannage est suivi d'un rapport d'intervention détaillé et d'une garantie sur les pièces remplacées."
     ]
   },
   "situations": {
@@ -42,7 +43,7 @@
       "Intervention en 30 minutes sur {zone}",
       "Disponible 24h/24 et 7j/7, même les jours fériés",
       "Véhicules équipés avec pièces de rechange",
-      "Techniciens certifiés avec plus de 10 ans d'expérience",
+      "Techniciens certifiés avec plus de 25 ans d'expérience",
       "Devis gratuit avant toute intervention",
       "Garantie sur les réparations effectuées"
     ]

@@ -1,0 +1,242 @@
+{
+  "hero": {
+    "badge": "🏭 Fabrication française",
+    "title": "Fabrication Rideau Métallique Paris 1er",
+    "subtitle": "Rideaux métalliques sur mesure fabriqués dans nos ateliers. Fabrication française de qualité pour commerces et professionnels à Paris 1er."
+  },
+  "intro": {
+    "title": "Rideau Métallique Sur-Mesure à Paris 1er : L'Excellence Artisanale",
+    "paragraphs": [
+      "Spécialiste de la fabrication de rideaux métalliques sur mesure à Paris 1er (75001), DRM Paris 1 conçoit et fabrique des fermetures métalliques de haute qualité dans ses ateliers. Chaque rideau est fabriqué selon vos dimensions exactes et vos besoins spécifiques : commerces des Halles, boutiques du Palais-Royal, restaurants de Châtelet ou locaux professionnels de la Place Vendôme.",
+      "Avec plus de 25 ans d'expérience dans la fabrication de rideaux métalliques, nous maîtrisons toutes les techniques de production : lames pleines pour sécurité maximale, micro-perforées pour visibilité, grilles articulées, rideaux coupe-feu certifiés et solutions grande dimension pour industriels. Notre atelier local dans Paris garantit des délais courts et une qualité irréprochable.",
+      "De la prise de mesures à l'installation finale, nous vous accompagnons à chaque étape. Nos artisans utilisent exclusivement des matériaux de première qualité : acier galvanisé, aluminium ou inoxydable. Chaque rideau fabriqué respecte les normes CE et bénéficie d'une garantie constructeur. Fabrication 100% française pour une durabilité exceptionnelle."
+    ]
+  },
+  "certifications": [
+    { "label": "Fabrication française" },
+    { "label": "Normes CE" },
+    { "label": "Garantie 2 à 10 ans" }
+  ],
+  "prestations": [
+    {
+      "title": "Rideau à lames pleines",
+      "description": "Sécurité maximale et occultation totale. Isolation thermique et phonique optimale. Idéal pour bijouteries, banques, pharmacies. Protection complète contre les effractions."
+    },
+    {
+      "title": "Rideau micro-perforé",
+      "description": "Visibilité partielle de la vitrine tout en assurant la sécurité. Ventilation naturelle. Parfait pour commerces, boutiques de prêt-à-porter et showrooms avec vitrines attractives."
+    },
+    {
+      "title": "Grille métallique articulée",
+      "description": "Visibilité totale de l'intérieur tout en protégeant. Sécurité anti-intrusion renforcée. Idéal pour galeries marchandes, centres commerciaux et boutiques de luxe."
+    },
+    {
+      "title": "Rideau coupe-feu",
+      "description": "Certification CF 1h à 4h selon besoins. Obligatoire pour certains ERP et locaux à risque. Parfait pour parkings souterrains, entrepôts et bâtiments réglementés."
+    },
+    {
+      "title": "Rideau isolant thermique",
+      "description": "Isolation phonique et thermique renforcée. Économies d'énergie garanties. Idéal pour entrepôts frigorifiques, ateliers et locaux nécessitant une isolation."
+    },
+    {
+      "title": "Rideau grande dimension",
+      "description": "Solutions sur mesure jusqu'à 15m de large. Motorisation industrielle adaptée. Parfait pour hangars, usines, zones logistiques et bâtiments industriels."
+    }
+  ],
+  "processus": {
+    "title": "Notre Processus de Fabrication",
+    "subtitle": "De la prise de mesures à l'installation, un accompagnement complet",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Prise de mesures",
+        "description": "Visite gratuite sur site à Paris 1er. Relevé précis des dimensions de votre devanture. Analyse des contraintes techniques et esthétiques. Conseil sur le type de rideau adapté à votre activité."
+      },
+      {
+        "number": "02",
+        "title": "Étude technique et devis",
+        "description": "Étude de faisabilité complète. Choix des matériaux et finitions. Proposition de motorisation adaptée. Devis détaillé sous 48h avec plan technique."
+      },
+      {
+        "number": "03",
+        "title": "Fabrication en atelier",
+        "description": "Fabrication sur mesure dans nos ateliers franciliens. Contrôle qualité à chaque étape. Respect des normes CE et réglementations. Délai de fabrication : 2 à 3 semaines."
+      },
+      {
+        "number": "04",
+        "title": "Installation sur site",
+        "description": "Livraison et pose par nos techniciens qualifiés. Installation en une journée pour commerces. Mise en service et formation à l'utilisation. Garantie constructeur activée."
+      }
+    ]
+  },
+  "materiaux": {
+    "title": "Matériaux et Finitions",
+    "subtitle": "Des matériaux de qualité pour une durabilité exceptionnelle",
+    "items": [
+      {
+        "icon": "🔩",
+        "title": "Acier galvanisé",
+        "description": "Résistant à la corrosion et aux intempéries. Excellent rapport qualité/prix pour usage professionnel. Durée de vie : 25 ans minimum. Finition brut ou thermolaqué.",
+        "specs": ["Épaisseur : 8/10 à 15/10", "Galvanisation Z275", "Coloris personnalisables"]
+      },
+      {
+        "icon": "✨",
+        "title": "Aluminium",
+        "description": "Léger et esthétique, ne rouille jamais. Large gamme de coloris RAL. Idéal pour commerces haut de gamme. Finition laquée brillante ou satinée.",
+        "specs": ["Légèreté optimale", "Anodisation de qualité", "Coloris illimités"]
+      },
+      {
+        "icon": "💎",
+        "title": "Acier inoxydable",
+        "description": "Haut de gamme pour boutiques de luxe. Résistance maximale dans le temps. Finition miroir ou brossée possible. Esthétique moderne et élégante.",
+        "specs": ["Inox 304 ou 316", "Finitions premium", "Durabilité extrême"]
+      }
+    ]
+  },
+  "normes": {
+    "title": "Normes et Certifications - Rideaux Métalliques CE",
+    "subtitle": "Conformité garantie pour votre tranquillité",
+    "items": [
+      {
+        "icon": "✅",
+        "title": "Norme NF EN 13241-1",
+        "description": "Tous nos rideaux respectent la norme européenne pour les fermetures métalliques. Essais de résistance, sécurité et durabilité validés."
+      },
+      {
+        "icon": "🇪🇺",
+        "title": "Marquage CE obligatoire",
+        "description": "Certification CE délivrée avec chaque rideau fabriqué. Garantit la conformité aux exigences européennes de sécurité."
+      },
+      {
+        "icon": "🔥",
+        "title": "Certification coupe-feu",
+        "description": "Options CF 1h, 2h ou 4h disponibles. Essais réalisés par laboratoires agréés. Obligatoire pour parkings et certains ERP."
+      },
+      {
+        "icon": "🏢",
+        "title": "Assurance décennale",
+        "description": "Tous nos travaux sont couverts par notre assurance décennale. Protection totale pendant 10 ans après installation."
+      },
+      {
+        "icon": "📋",
+        "title": "Réglementation ERP",
+        "description": "Respect des normes pour Établissements Recevant du Public. Conformité aux exigences de sécurité incendie."
+      }
+    ]
+  },
+  "secteurs": {
+    "title": "Secteurs d'activité équipés",
+    "subtitle": "Nous fabriquons des rideaux pour tous les professionnels de Paris 1er",
+    "items": [
+      {
+        "icon": "🏪",
+        "title": "Commerces de détail",
+        "description": "Boutiques, magasins de prêt-à-porter, épiceries fines, cavistes, tabac-presse, librairies.",
+        "examples": "Boutiques Palais-Royal, commerces rue de Rivoli"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Restauration",
+        "description": "Restaurants, brasseries, bars, cafés, boulangeries, pâtisseries.",
+        "examples": "Restaurants Châtelet, brasseries Les Halles"
+      },
+      {
+        "icon": "💍",
+        "title": "Commerces de luxe",
+        "description": "Bijouteries, horlogeries, maroquineries, galeries d'art, antiquaires.",
+        "examples": "Bijouteries Place Vendôme, galeries d'art"
+      },
+      {
+        "icon": "🏭",
+        "title": "Industrie et logistique",
+        "description": "Entrepôts, ateliers, hangars, zones de stockage, locaux techniques.",
+        "examples": "Entrepôts, ateliers, zones logistiques"
+      },
+      {
+        "icon": "🏥",
+        "title": "Santé et services",
+        "description": "Pharmacies, cabinets médicaux, laboratoires, agences bancaires.",
+        "examples": "Pharmacies, agences, cabinets professionnels"
+      },
+      {
+        "icon": "🚗",
+        "title": "Garages et parkings",
+        "description": "Garages automobiles, parkings privés et publics, boxes de stockage.",
+        "examples": "Parkings souterrains, garages"
+      }
+    ]
+  },
+  "brands": ["Somfy", "Nice", "Came", "Hörmann", "Bubendorff", "Simu", "BFT", "Faac"],
+  "reviews": [
+    {
+      "author": "Catherine L.",
+      "rating": 5,
+      "date": "2024-01-22",
+      "location": "Boutique décoration - Palais-Royal",
+      "service": "Fabrication sur mesure",
+      "text": "DRM Paris 1 a fabriqué un rideau métallique sur mesure pour ma boutique au Palais-Royal. Le résultat est parfait, le rideau s'intègre harmonieusement à ma devanture. Équipe professionnelle, délais respectés. Je recommande vivement !"
+    },
+    {
+      "author": "Jean-Pierre M.",
+      "rating": 5,
+      "date": "2024-01-15",
+      "location": "Restaurant - Châtelet",
+      "service": "Fabrication micro-perforé",
+      "text": "Fabrication et pose d'un rideau micro-perforé pour mon restaurant à Châtelet. Qualité irréprochable, le rideau permet de voir l'intérieur tout en protégeant. Très satisfait de ce fabricant local avec plus de 25 ans d'expérience."
+    },
+    {
+      "author": "Nadia K.",
+      "rating": 5,
+      "date": "2024-01-08",
+      "location": "Parking - Louvre",
+      "service": "Fabrication coupe-feu",
+      "text": "Fabrication d'un rideau coupe-feu pour notre parking près du Louvre. Certification CE conforme, pose rapide et soignée. Équipe très professionnelle. Je recommande DRM pour toute fabrication sur Paris."
+    },
+    {
+      "author": "François D.",
+      "rating": 4,
+      "date": "2024-01-02",
+      "location": "Pharmacie - Les Halles",
+      "service": "Fabrication lames pleines",
+      "text": "Excellent travail de fabrication pour ma pharmacie aux Halles. Le rideau à lames pleines est robuste et esthétique. Délai de 3 semaines respecté. Seul petit bémol : prix un peu élevé, mais la qualité en vaut la peine."
+    },
+    {
+      "author": "Marie-Claire B.",
+      "rating": 5,
+      "date": "2023-12-28",
+      "location": "Bijouterie - Place Vendôme",
+      "service": "Fabrication grille articulée",
+      "text": "Fabrication d'une grille articulée sur mesure pour ma bijouterie Place Vendôme. DRM a parfaitement compris mes besoins : sécurité maximale tout en gardant la visibilité de mes vitrines. Travail soigné, fabrication française. Je suis ravie du résultat !"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Qui appeler pour une fabrication de rideau métallique à Paris 1er ?",
+      "answer": "Pour la fabrication d'un rideau métallique sur mesure à <strong>Paris 1er (75001)</strong>, contactez <strong>DRM Paris 1 au 01 85 09 99 36</strong>. Notre atelier local fabrique des rideaux métalliques de qualité pour les commerces et professionnels de Paris 1er. Devis gratuit, fabrication française, pose incluse."
+    },
+    {
+      "question": "Quel est le délai de fabrication pour un rideau métallique à Paris 1er ?",
+      "answer": "Le délai de fabrication d'un rideau métallique sur mesure est généralement de <strong>2 à 3 semaines</strong>. Ce délai comprend la prise de mesures, la fabrication en atelier et la livraison. La pose est réalisée dans la foulée par nos techniciens, généralement en une journée."
+    },
+    {
+      "question": "Quels types de rideaux métalliques fabriquez-vous ?",
+      "answer": "Nous fabriquons tous types de rideaux métalliques à Paris 1er : <strong>lames pleines</strong> pour sécurité maximale, <strong>micro-perforés</strong> pour visibilité partielle, <strong>grilles articulées</strong> pour transparence totale, <strong>coupe-feu</strong> certifiés CF 1h à 4h, <strong>isolants thermiques</strong>, et <strong>grande dimension</strong> jusqu'à 15m. Chaque rideau est conçu sur mesure selon vos besoins."
+    },
+    {
+      "question": "Combien coûte la fabrication d'un rideau métallique ?",
+      "answer": "Le prix d'un rideau métallique sur mesure dépend des dimensions, du type de rideau et des options choisies. Comptez entre <strong>800€ et 3000€</strong> pour un commerce standard, et jusqu'à 10000€ pour les grandes dimensions industrielles. Nous établissons un <strong>devis gratuit et détaillé</strong> après la prise de mesures."
+    },
+    {
+      "question": "Les rideaux sont-ils fabriqués en France ?",
+      "answer": "Oui, tous nos rideaux métalliques sont <strong>fabriqués en France</strong> dans nos ateliers franciliens. Nous privilégions les matériaux français et européens pour garantir la meilleure qualité. Chaque rideau respecte les normes CE et bénéficie d'une garantie constructeur de 2 à 10 ans."
+    },
+    {
+      "question": "Quelle garantie sur un rideau métallique fabriqué sur mesure ?",
+      "answer": "Nos rideaux métalliques fabriqués sur mesure bénéficient d'une <strong>garantie constructeur de 2 à 10 ans</strong> selon les composants. La motorisation est garantie 3 ans, les pièces mécaniques 5 ans. De plus, notre <strong>assurance décennale</strong> couvre l'installation pendant 10 ans."
+    }
+  ],
+  "cta": {
+    "title": "Projet de fabrication de rideau métallique ?",
+    "subtitle": "Demandez un devis gratuit pour votre rideau sur mesure à Paris 1er."
+  }
+}

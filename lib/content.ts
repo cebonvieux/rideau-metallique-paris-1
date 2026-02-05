@@ -56,6 +56,46 @@ export function getServiceBySlug(slug: string) {
 }
 
 /**
+ * Récupère un service par son baseSlug
+ */
+export function getServiceByBaseSlug(baseSlug: string) {
+  return services.find(s => s.baseSlug === baseSlug);
+}
+
+/**
+ * Parse un slug combiné service+zone (ex: "depannage-rideau-metallique-paris-3")
+ * Retourne { service, zone } ou null si non trouvé
+ */
+export function parseServiceZoneSlug(slug: string): { service: typeof services[number]; zone: ReturnType<typeof getZoneBySlug> } | null {
+  // On essaie chaque service pour voir si le slug commence par son baseSlug
+  for (const service of services) {
+    const prefix = service.baseSlug + "-";
+    if (slug.startsWith(prefix)) {
+      const zoneSlug = slug.slice(prefix.length);
+      const zone = getZoneBySlug(zoneSlug);
+      if (zone) {
+        return { service, zone };
+      }
+    }
+  }
+  return null;
+}
+
+/**
+ * Génère le slug combiné service+zone pour une URL
+ */
+export function buildServiceZoneSlug(serviceBaseSlug: string, zoneSlug: string): string {
+  return `${serviceBaseSlug}-${zoneSlug}`;
+}
+
+/**
+ * Génère l'URL complète pour une page subcity
+ */
+export function getSubcityUrl(serviceBaseSlug: string, zoneSlug: string): string {
+  return `/${buildServiceZoneSlug(serviceBaseSlug, zoneSlug)}`;
+}
+
+/**
  * Remplace les variables dans un objet (récursif)
  */
 export function replaceVariablesInObject<T>(obj: T, context?: ReplaceContext): T {

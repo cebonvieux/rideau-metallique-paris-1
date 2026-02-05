@@ -1,14 +1,15 @@
 {
   "hero": {
     "badge": "🏗️ Installation professionnelle",
-    "title": "Installation Rideau Métallique {zone}",
+    "title": "Installation Rideau Métallique Paris 1",
     "subtitle": "Pose de rideaux métalliques à {zone} par des professionnels qualifiés. Rideaux à lames, grilles, portes de garage pour commerces et locaux professionnels."
   },
   "intro": {
     "title": "Installation rideau métallique à {zone}",
     "paragraphs": [
-      "Vous cherchez un installateur de rideaux métalliques à {zone} ? {name} réalise la pose complète de tous types de rideaux métalliques pour sécuriser votre commerce ou local professionnel.",
-      "Nous vous accompagnons du conseil au choix du rideau jusqu'à la pose et la mise en service. Nos techniciens interviennent à {zone} ({zonePostal}) avec tout le matériel nécessaire."
+      "Spécialiste de la pose de rideaux métalliques à {zone} ({zonePostal}), notre équipe intervient pour sécuriser votre commerce ou local professionnel. Nous installons tous types de fermetures métalliques : rideaux à lames pleines, grilles micro-perforées, stores à tubes ondulés. Notre connaissance approfondie de {zone} nous permet d'optimiser nos délais d'intervention et de vous proposer des solutions adaptées à votre activité.",
+      "Que vous soyez commerçant dans le centre de {zone}, artisan en zone d'activité ou professionnel, nous adaptons nos prestations à vos besoins spécifiques. Avec plus de 25 ans d'expérience dans {department}, nous maîtrisons toutes les problématiques de sécurisation de locaux commerciaux. Chaque installation est réalisée sur mesure en fonction des dimensions de votre devanture et de vos exigences en matière de sécurité.",
+      "Notre équipe connaît parfaitement les spécificités de {zone} : accessibilité des commerces, types de bâtiments, réglementations locales. Nous utilisons exclusivement des pièces d'origine et des rideaux fabriqués en France pour garantir la durabilité de votre installation. Chaque pose est suivie d'une formation complète à l'utilisation et d'un service après-vente réactif pour votre tranquillité."
     ]
   },
   "situations": {

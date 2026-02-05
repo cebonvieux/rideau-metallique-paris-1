@@ -237,7 +237,7 @@ Exemple :
 - 🚀 Intervention en -30 min
 - 🛡️ Garantie pièces et main d'œuvre
 - 📍 Entreprise locale [VILLE]
-- 🏆 15+ ans d'expérience
+- 🏆 25+ ans d'expérience
 - 📊 5000+ interventions réalisées
 
 ---

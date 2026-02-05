@@ -23,7 +23,7 @@
   ],
   "whyUs": {
     "title": "Pourquoi choisir DRM Paris 1 ?",
-    "subtitle": "Spécialistes du rideau métallique à Paris 1er depuis plus de 15 ans. Une équipe de techniciens qualifiés à votre service.",
+    "subtitle": "Spécialistes du rideau métallique à Paris 1er depuis plus de 25 ans. Une équipe de techniciens qualifiés à votre service.",
     "advantages": [
       {
         "icon": "⚡",
@@ -48,7 +48,7 @@
     ]
   },
   "stats": {
-    "experience": "15+",
+    "experience": "25+",
     "experienceLabel": "ans d'expérience",
     "interventions": "5000+",
     "interventionsLabel": "interventions/an",
@@ -63,6 +63,81 @@
       "Intervention en 30 minutes",
       "Tous types de pannes",
       "Devis gratuit par téléphone"
+    ]
+  },
+  "typesRideaux": {
+    "title": "Types de rideaux métalliques à Paris 1er",
+    "subtitle": "Nous intervenons sur tous les types de fermetures métalliques",
+    "items": [
+      {
+        "icon": "🔲",
+        "title": "Rideau à lames pleines",
+        "description": "Sécurité maximale pour commerces et entrepôts. Isolation thermique et phonique optimale. Protection complète contre les effractions."
+      },
+      {
+        "icon": "⚪",
+        "title": "Rideau à lames micro-perforées",
+        "description": "Visibilité de la vitrine tout en assurant la sécurité. Idéal pour boutiques, showrooms et magasins avec vitrine attractive."
+      },
+      {
+        "icon": "〰️",
+        "title": "Rideau à tubes ondulés",
+        "description": "Transparence maximale, visibilité totale de l'intérieur. Parfait pour centres commerciaux et galeries marchandes."
+      },
+      {
+        "icon": "🔳",
+        "title": "Grille métallique",
+        "description": "Protection tout en laissant voir l'intérieur. Solution classique et robuste pour tous types de commerces."
+      },
+      {
+        "icon": "🔥",
+        "title": "Rideau coupe-feu",
+        "description": "Conformité aux normes de sécurité incendie. Obligatoire pour certains ERP et locaux à risque."
+      },
+      {
+        "icon": "🚗",
+        "title": "Porte de garage",
+        "description": "Portes sectionnelles, basculantes ou enroulables pour garages automobiles, parkings privés et locaux de stockage."
+      }
+    ]
+  },
+  "secteursActivite": {
+    "title": "Nous équipons tous les secteurs d'activité à Paris 1er",
+    "subtitle": "Plus de 25 ans d'expérience au service des professionnels et particuliers",
+    "secteurs": [
+      {
+        "icon": "🏪",
+        "title": "Commerces",
+        "description": "Boutiques, boulangeries, pharmacies, restaurants, bars, cavistes",
+        "exemples": "Magasins de prêt-à-porter, épiceries, tabac-presse, salon de coiffure"
+      },
+      {
+        "icon": "🏭",
+        "title": "Entrepôts et Locaux Industriels",
+        "description": "Zones logistiques, ateliers, locaux de stockage, usines",
+        "exemples": "Centres de distribution, ateliers de fabrication, zones de stockage"
+      },
+      {
+        "icon": "🚗",
+        "title": "Garages et Parkings",
+        "description": "Garages automobiles, parkings privés et publics, boxes de stockage",
+        "exemples": "Garages particuliers, parkings souterrains, centres auto"
+      },
+      {
+        "icon": "🏛️",
+        "title": "Établissements Publics",
+        "description": "Mairies, écoles, centres administratifs, musées",
+        "exemples": "Bibliothèques, salles polyvalentes, locaux associatifs, ERP"
+      }
+    ]
+  },
+  "expertise": {
+    "title": "Notre expertise à Paris 1er",
+    "subtitle": "DRM Paris 1, spécialiste des rideaux métalliques depuis plus de 25 ans",
+    "paragraphes": [
+      "Depuis plus de 25 ans, DRM Paris 1 intervient quotidiennement à Paris 1er (75001) et dans tout Paris. Notre connaissance du terrain nous permet d'arriver rapidement chez vous, même dans les zones difficiles d'accès comme les rues piétonnes des Halles, les passages couverts du Palais-Royal ou les artères commerçantes de la rue de Rivoli.",
+      "Notre équipe de techniciens qualifiés maîtrise toutes les marques de rideaux métalliques et de motorisations : Somfy, Nice, Came, Hörmann, Bubendorff, Simu. Nous utilisons exclusivement des pièces d'origine constructeur pour garantir la durabilité de nos interventions et la sécurité de vos installations. Chaque technicien dispose d'un véhicule équipé avec un stock complet de pièces détachées pour intervenir efficacement.",
+      "Avec plus de 5000 interventions par an et une note de 4.9/5 sur 127 avis Google, nous sommes la référence du dépannage de grilles métalliques à Paris 1er. Nous intervenons pour tous types de clients : commerçants des Halles, restaurateurs de Châtelet, bijoutiers de la Place Vendôme, boutiques du Louvre et établissements publics. Notre réactivité et notre expertise technique font notre réputation dans tout l'arrondissement."
     ]
   },
   "pannesCourantes": {

@@ -1,14 +1,15 @@
 {
   "hero": {
     "badge": "⚡ Automatisation",
-    "title": "Motorisation Rideau Métallique {zone}",
+    "title": "Motorisation Rideau Métallique Paris 1",
     "subtitle": "Motorisation et automatisation de rideaux métalliques à {zone}. Transformez votre rideau manuel en rideau électrique pour plus de confort et de sécurité."
   },
   "intro": {
     "title": "Motorisation rideau métallique à {zone}",
     "paragraphs": [
-      "Vous en avez assez de lever et baisser votre rideau manuellement ? {name} motorise votre rideau métallique existant à {zone}. Une solution simple et rapide pour gagner en confort au quotidien.",
-      "La motorisation permet également un meilleur verrouillage automatique et peut être couplée à des systèmes de domotique et de contrôle d'accès."
+      "Spécialiste de l'automatisation de grilles métalliques à {zone} ({zonePostal}), {name} transforme votre rideau manuel en rideau électrique pour un confort optimal au quotidien. Fini les efforts physiques matin et soir, votre fermeture métallique s'ouvre et se ferme d'un simple geste grâce à une télécommande ou un interrupteur. Cette solution est particulièrement appréciée des commerçants de {zone} qui peuvent désormais gérer leur rideau sans effort.",
+      "Nous installons tous types de moteurs adaptés à votre configuration : moteur tubulaire intégré dans l'axe d'enroulement, moteur central ou moteur latéral selon les contraintes de votre installation à {zone}. Notre expertise technique nous permet d'intervenir sur tous types de stores métalliques, même les plus lourds ou les plus anciens. Chaque motorisation est équipée d'un système de débrayage manuel pour garantir l'ouverture en cas de coupure électrique.",
+      "L'automatisation de votre rideau de fer à {zone} ({zonePostal}) améliore également votre sécurité grâce au verrouillage automatique et à la possibilité d'intégration avec votre alarme ou système de contrôle d'accès. Nous proposons des solutions connectées permettant le pilotage depuis votre smartphone, la programmation d'horaires et l'alerte en cas de tentative d'effraction. Chaque installation est garantie et inclut une formation complète à l'utilisation."
     ]
   },
   "situations": {

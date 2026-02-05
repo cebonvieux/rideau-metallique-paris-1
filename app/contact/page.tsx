@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { getPageContent } from "@/lib/content";
 import { FAQ } from "@/components/sections/FAQ";
+import { ContactForm } from "@/components/sections/ContactForm";
 import pageData from "@/content/pages/contact.json";
 
 const content = getPageContent(pageData);
 
 export const metadata: Metadata = {
-  title: `Contact DRM Paris 1 - Devis Gratuit | ${siteConfig.phone}`,
-  description: `Contactez ${siteConfig.name} à ${siteConfig.city}. Disponible 24h/24 pour urgences et devis. ${siteConfig.phone}. Intervention rapide en 30 min.`,
+  title: `Contact Paris 1er - Devis Gratuit ${siteConfig.phone}`,
+  description: `Contactez-nous à Paris 1er pour un devis gratuit. Disponible 24h/24 - Intervention en 30 min. ☎️ ${siteConfig.phone}`,
   alternates: {
     canonical: `${siteConfig.url}/contact`,
   },
@@ -181,91 +182,7 @@ export default function ContactPage() {
                 </span>
                 <h2 className="mb-8">Demande de devis gratuit</h2>
                 
-                <form className="space-y-6">
-                  <div className="grid sm:grid-cols-2 gap-6">
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-neutral-700 mb-2">Nom *</label>
-                      <input 
-                        type="text" 
-                        id="name" 
-                        name="name" 
-                        required 
-                        className="w-full px-4 py-3 bg-white border border-neutral-300 focus:border-neutral-900 focus:outline-none transition-colors" 
-                        placeholder="Votre nom"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="phone" className="block text-sm font-medium text-neutral-700 mb-2">Téléphone *</label>
-                      <input 
-                        type="tel" 
-                        id="phone" 
-                        name="phone" 
-                        required 
-                        className="w-full px-4 py-3 bg-white border border-neutral-300 focus:border-neutral-900 focus:outline-none transition-colors" 
-                        placeholder="06 00 00 00 00"
-                      />
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-neutral-700 mb-2">Email</label>
-                    <input 
-                      type="email" 
-                      id="email" 
-                      name="email" 
-                      className="w-full px-4 py-3 bg-white border border-neutral-300 focus:border-neutral-900 focus:outline-none transition-colors" 
-                      placeholder="votre@email.com"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="address" className="block text-sm font-medium text-neutral-700 mb-2">Adresse du local</label>
-                    <input 
-                      type="text" 
-                      id="address" 
-                      name="address" 
-                      className="w-full px-4 py-3 bg-white border border-neutral-300 focus:border-neutral-900 focus:outline-none transition-colors" 
-                      placeholder="Adresse de votre commerce"
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="service" className="block text-sm font-medium text-neutral-700 mb-2">Type d&apos;intervention *</label>
-                    <select 
-                      id="service" 
-                      name="service" 
-                      required
-                      className="w-full px-4 py-3 bg-white border border-neutral-300 focus:border-neutral-900 focus:outline-none transition-colors"
-                    >
-                      <option value="">Sélectionnez...</option>
-                      <option value="depannage">Dépannage urgence</option>
-                      <option value="installation">Installation</option>
-                      <option value="motorisation">Motorisation</option>
-                      <option value="entretien">Entretien / Contrat</option>
-                      <option value="devis">Demande de devis</option>
-                      <option value="autre">Autre demande</option>
-                    </select>
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-neutral-700 mb-2">Décrivez votre besoin</label>
-                    <textarea 
-                      id="message" 
-                      name="message" 
-                      rows={4} 
-                      className="w-full px-4 py-3 bg-white border border-neutral-300 focus:border-neutral-900 focus:outline-none transition-colors resize-none" 
-                      placeholder="Décrivez votre problème ou votre projet..."
-                    />
-                  </div>
-                  
-                  <button type="submit" className="w-full btn-dark py-4">
-                    Envoyer ma demande
-                  </button>
-                  
-                  <p className="text-xs text-neutral-500 text-center">
-                    Pour une urgence, appelez directement le <a href={siteConfig.phoneLink} className="text-neutral-900 font-semibold">{siteConfig.phone}</a>
-                  </p>
-                </form>
+                <ContactForm />
               </div>
             </div>
           </div>

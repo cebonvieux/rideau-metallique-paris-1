@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteConfig, navigation, services, zones } from "@/config/site";
+import { getSubcityUrl } from "@/lib/content";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -98,7 +99,7 @@ export function Footer() {
               {zones.slice(0, 10).map((zone) => (
                 <Link 
                   key={zone.slug}
-                  href={`/zones/${zone.slug}`} 
+                  href={zone.isMain ? "/" : getSubcityUrl("depannage-rideau-metallique", zone.slug)} 
                   className="text-sm text-neutral-400 hover:text-white transition-colors"
                 >
                   {zone.name}

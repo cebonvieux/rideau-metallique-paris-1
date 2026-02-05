@@ -3,25 +3,33 @@
 import Link from "next/link";
 import Image from "next/image";
 import { siteConfig, services } from "@/config/site";
+import { getSubcityUrl } from "@/lib/content";
 
 interface ServicesProps {
   title?: string;
   subtitle?: string;
+  /** Slug de la zone pour générer les URLs subcity */
   zoneSlug?: string;
 }
 
 const serviceImages: Record<string, string> = {
   depannage: "/images/gallery/dépannage-rideau-metallique-paris-1.webp",
-  installation: "/images/gallery/installation-rideau-metallique-paris-1.webp",
-  motorisation: "/images/gallery/motorisation-rideau-metallique-paris-1.webp",
-  entretien: "/images/gallery/entretien-rideau-metallique-paris-1.webp",
+  "fabrication-rideau-metallique-paris-1": "/images/gallery/fabrication-rideau-metallique-paris-1.webp",
+  "installation-rideau-metallique-paris-1": "/images/gallery/installation-rideau-metallique-paris-1.webp",
+  "motorisation-rideau-metallique-paris-1": "/images/gallery/motorisation-rideau-metallique-paris-1.webp",
+  "entretien-rideau-metallique-paris-1": "/images/gallery/entretien-rideau-metallique-paris-1.webp",
   reparation: "/images/gallery/fabrication-rideau-metallique-paris-1.webp",
-  deblocage: "/images/gallery/dépannage-rideau-metallique-paris-1.webp",
+  "deblocage-rideau-metallique-paris-1": "/images/gallery/dépannage-rideau-metallique-paris-1.webp",
 };
 
 export function Services({ title, subtitle, zoneSlug }: ServicesProps) {
-  const getServiceUrl = (serviceSlug: string) => {
-    return zoneSlug ? `/${serviceSlug}/${zoneSlug}` : `/${serviceSlug}`;
+  const getServiceUrl = (service: typeof services[number]) => {
+    // Si on a une zone, générer l'URL subcity avec le baseSlug du service
+    if (zoneSlug) {
+      return getSubcityUrl(service.baseSlug, zoneSlug);
+    }
+    // Sinon, lien vers la page service principale
+    return `/${service.slug}`;
   };
 
   // Sélectionner les 4 services principaux
@@ -54,7 +62,7 @@ export function Services({ title, subtitle, zoneSlug }: ServicesProps) {
           {mainServices.map((service, index) => (
             <Link
               key={service.id}
-              href={getServiceUrl(service.slug)}
+              href={getServiceUrl(service)}
               className="group relative h-[400px] md:h-[500px] overflow-hidden"
             >
               {/* Image de fond */}
@@ -108,7 +116,7 @@ export function Services({ title, subtitle, zoneSlug }: ServicesProps) {
               {services.slice(4).map((service) => (
                 <Link
                   key={service.id}
-                  href={getServiceUrl(service.slug)}
+                  href={getServiceUrl(service)}
                   className="link-underline text-sm font-medium text-neutral-600 hover:text-neutral-900"
                 >
                   {service.name}
