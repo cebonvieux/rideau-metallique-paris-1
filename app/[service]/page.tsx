@@ -3,27 +3,18 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { siteConfig, zones, services } from "@/config/site";
+import type { Service } from "@/config/site";
 import { getPageContent, getServiceBySlug, getSubcityUrl, parseServiceZoneSlug } from "@/lib/content";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
 import faqData from "@/content/faq.json";
+import type { Zone } from "@/config/zones";
 
 // Types pour le contenu
 interface ServiceItem {
   title: string;
   description: string;
   icon?: string;
-}
-
-interface Zone {
-  slug: string;
-  name: string;
-}
-
-interface Service {
-  id: string;
-  name: string;
-  slug: string;
 }
 
 // Map des images par service (par id de service)
@@ -331,7 +322,7 @@ export default function ServicePage({ params }: Props) {
                 </span>
                 <h2 className="text-white mb-8">{content.advantages.title}</h2>
                 <ul className="space-y-4">
-                  {content.advantages.items.map((item: ServiceItem, index: number) => (
+                  {content.advantages.items.map((item: string, index: number) => (
                     <li key={index} className="flex items-start gap-3">
                       <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -577,7 +568,7 @@ export default function ServicePage({ params }: Props) {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-neutral-200">
-            {content.situations.items.map((item, index) => (
+            {content.situations.items.map((item: ServiceItem, index: number) => (
               <div key={index} className="bg-white p-8 hover:bg-neutral-50 transition-colors">
                 <span className="block text-4xl font-black text-neutral-100 mb-4">
                   {String(index + 1).padStart(2, '0')}
@@ -601,7 +592,7 @@ export default function ServicePage({ params }: Props) {
               </span>
               <h2 className="text-white mb-8">{content.advantages.title}</h2>
               <ul className="space-y-4">
-                {content.advantages.items.map((item, index) => (
+                {content.advantages.items.map((item: string, index: number) => (
                   <li key={index} className="flex items-start gap-3">
                     <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />

@@ -2,7 +2,9 @@
 
 interface Secteur {
   icon: string;
-  name: string;
+  title?: string;
+  name?: string;
+  description?: string;
   examples: string;
 }
 
@@ -43,7 +45,7 @@ export function Secteurs({
               </span>
               
               <h3 className="font-semibold text-neutral-900 mb-1 group-hover:text-white transition-colors">
-                {secteur.name}
+                {secteur.title || secteur.name}
               </h3>
               <p className="text-xs text-neutral-500 group-hover:text-neutral-400 transition-colors">
                 {secteur.examples}
