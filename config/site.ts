@@ -30,11 +30,11 @@ export const siteConfig = {
   department: "Paris",
   departmentCode: "75",
   region: "Île-de-France",
-  address: "1 Place du Châtelet, 75001 Paris",
+  address: "185 Rue Saint-Honoré, 75001 Paris",
   
   geo: {
-    lat: 48.8584,
-    lng: 2.3470,
+    lat: 48.8636,
+    lng: 2.3382,
   },
   
   // ─────────────────────────────────────────────────────────────────────────
